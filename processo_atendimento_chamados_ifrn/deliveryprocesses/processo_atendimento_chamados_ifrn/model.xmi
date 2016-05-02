@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_g2WysRB_EeaMab92HdiewQ" guid="_g2WysRB_EeaMab92HdiewQ">
+    <resourceDescriptors xmi:id="_g2WyshB_EeaMab92HdiewQ" id="-fqGWGpuhSNwxYZVmzF6Q5Q" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_g0ubABB_EeaMab92HdiewQ" name="processo_atendimento_chamados_ifrn" guid="_g0ubABB_EeaMab92HdiewQ">
+    <methodElementProperty xmi:id="_g0ubAhB_EeaMab92HdiewQ" name="pkg_loadCheck" value="true"/>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_g0ubARB_EeaMab92HdiewQ" name="processo_atendimento_chamados_ifrn" guid="_g0ubARB_EeaMab92HdiewQ" presentationName="processo_atendimento_chamados_ifrn">
+      <presentation xmi:id="-fqGWGpuhSNwxYZVmzF6Q5Q" href="uma://-fqGWGpuhSNwxYZVmzF6Q5Q#-fqGWGpuhSNwxYZVmzF6Q5Q"/>
+      <defaultContext href="uma://_wg_8ERB-EeaMab92HdiewQ#_IQhFYBB_EeaMab92HdiewQ"/>
+      <validContext href="uma://_wg_8ERB-EeaMab92HdiewQ#_IQhFYBB_EeaMab92HdiewQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

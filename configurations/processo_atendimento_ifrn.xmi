@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:MethodConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_IQhFYBB_EeaMab92HdiewQ" name="processo_atendimento_ifrn" guid="_IQhFYBB_EeaMab92HdiewQ">
+  <methodPluginSelection href="uma://_15GpMBB-EeaMab92HdiewQ#_15GpMBB-EeaMab92HdiewQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://_g0ubABB_EeaMab92HdiewQ#_g0ubABB_EeaMab92HdiewQ"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessPackage" href="uma://_15GpMBB-EeaMab92HdiewQ#_15GpPhB-EeaMab92HdiewQ"/>
+</org.eclipse.epf.uma:MethodConfiguration>
