@@ -6,18 +6,35 @@
   <org.eclipse.epf.uma:ProcessComponent xmi:id="_g0ubABB_EeaMab92HdiewQ" name="processo_atendimento_chamados_ifrn" guid="_g0ubABB_EeaMab92HdiewQ">
     <methodElementProperty xmi:id="_g0ubAhB_EeaMab92HdiewQ" name="pkg_loadCheck" value="true"/>
     <methodElementProperty xmi:id="_5KkgEBOWEeaMab92HdiewQ" name="me_edited" value="true"/>
-    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_6RiaEBOUEeaMab92HdiewQ" name="New Phase" guid="_6RiaEBOUEeaMab92HdiewQ">
-      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_6TLY0ROUEeaMab92HdiewQ" name="New Phase" guid="_6TLY0ROUEeaMab92HdiewQ" presentationName="Distribuição" superActivities="_g0ubARB_EeaMab92HdiewQ"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_6RiaEBOUEeaMab92HdiewQ" name="Distribuição" guid="_6RiaEBOUEeaMab92HdiewQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_BUJcABOnEeaoF8c2YfdgvQ" name="Distribuir Chamado" guid="_BUJcABOnEeaoF8c2YfdgvQ">
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_BUJcAROnEeaoF8c2YfdgvQ" name="Distribuir Chamado" guid="_BUJcAROnEeaoF8c2YfdgvQ" presentationName="Distribuir Chamado" superActivities="_6TLY0ROUEeaMab92HdiewQ" linkToPredecessor="_CjtmcBOnEeaoF8c2YfdgvQ" breakdownElements="_MitwwBOoEeaoF8c2YfdgvQ _Di_nQROpEeaoF8c2YfdgvQ _jitsMROpEeaoF8c2YfdgvQ"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_CjtmcBOnEeaoF8c2YfdgvQ" guid="_CjtmcBOnEeaoF8c2YfdgvQ" pred="_a3nEoBOmEeaoF8c2YfdgvQ"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_MitwwBOoEeaoF8c2YfdgvQ" name="Identificar Interessado" guid="_MitwwBOoEeaoF8c2YfdgvQ" presentationName="Identificar Interessado" superActivities="_BUJcAROnEeaoF8c2YfdgvQ" isSynchronizedWithSource="false"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Di_nQROpEeaoF8c2YfdgvQ" name="Identificar Serviço Solicitado" guid="_Di_nQROpEeaoF8c2YfdgvQ" presentationName="Identificar Serviço Solicitado" superActivities="_BUJcAROnEeaoF8c2YfdgvQ" isSynchronizedWithSource="false"/>
+        <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_jitsMROpEeaoF8c2YfdgvQ" name="New Task Descriptor" guid="_jitsMROpEeaoF8c2YfdgvQ" presentationName="Distribuir Chamado para Central de Atendimento Responsável" superActivities="_BUJcAROnEeaoF8c2YfdgvQ" linkToPredecessor="_NKpH4BOyEeaoF8c2YfdgvQ _NKpH4ROyEeaoF8c2YfdgvQ"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_NKpH4BOyEeaoF8c2YfdgvQ" guid="_NKpH4BOyEeaoF8c2YfdgvQ" pred="_MitwwBOoEeaoF8c2YfdgvQ"/>
+        <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_NKpH4ROyEeaoF8c2YfdgvQ" guid="_NKpH4ROyEeaoF8c2YfdgvQ" pred="_Di_nQROpEeaoF8c2YfdgvQ"/>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_6TLY0ROUEeaMab92HdiewQ" name="Distribuição" guid="_6TLY0ROUEeaMab92HdiewQ" presentationName="Distribuição" superActivities="_g0ubARB_EeaMab92HdiewQ" breakdownElements="_a3nEoBOmEeaoF8c2YfdgvQ _BUJcAROnEeaoF8c2YfdgvQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_a3nEoBOmEeaoF8c2YfdgvQ" name="Cadastrar Chamado" guid="_a3nEoBOmEeaoF8c2YfdgvQ" presentationName="Cadastrar Chamado" superActivities="_6TLY0ROUEeaMab92HdiewQ" isSynchronizedWithSource="false"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_vRlOcBOmEeaoF8c2YfdgvQ" guid="_vRlOcBOmEeaoF8c2YfdgvQ" pred="_a3nEoBOmEeaoF8c2YfdgvQ"/>
     </childPackages>
-    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_7M-5MBOVEeaMab92HdiewQ" name="New Phase_2" guid="_7M-5MBOVEeaMab92HdiewQ">
-      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_7NIDIBOVEeaMab92HdiewQ" name="New Phase_2" guid="_7NIDIBOVEeaMab92HdiewQ" presentationName="Atendimento" superActivities="_g0ubARB_EeaMab92HdiewQ" linkToPredecessor="_W-xlIBOWEeaMab92HdiewQ"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_7M-5MBOVEeaMab92HdiewQ" name="Atendimento" guid="_7M-5MBOVEeaMab92HdiewQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_t-qssRO0EeaoF8c2YfdgvQ" name="New Activity" guid="_t-qssRO0EeaoF8c2YfdgvQ">
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_t-qsshO0EeaoF8c2YfdgvQ" name="New Activity" guid="_t-qsshO0EeaoF8c2YfdgvQ" presentationName="New Activity" superActivities="_7NIDIBOVEeaMab92HdiewQ"/>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_7NIDIBOVEeaMab92HdiewQ" name="Atendimento" guid="_7NIDIBOVEeaMab92HdiewQ" presentationName="Atendimento" superActivities="_g0ubARB_EeaMab92HdiewQ" linkToPredecessor="_W-xlIBOWEeaMab92HdiewQ" breakdownElements="_9bsGQBOyEeaoF8c2YfdgvQ __C_bQROyEeaoF8c2YfdgvQ _Z3XnQBO0EeaoF8c2YfdgvQ _t-qsshO0EeaoF8c2YfdgvQ"/>
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_W-xlIBOWEeaMab92HdiewQ" guid="_W-xlIBOWEeaMab92HdiewQ" pred="_6TLY0ROUEeaMab92HdiewQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9bsGQBOyEeaoF8c2YfdgvQ" name="New Task Descriptor" guid="_9bsGQBOyEeaoF8c2YfdgvQ" presentationName="Atribuir Chamados" superActivities="_7NIDIBOVEeaMab92HdiewQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="__C_bQROyEeaoF8c2YfdgvQ" name="New Task Descriptor_2" guid="__C_bQROyEeaoF8c2YfdgvQ" presentationName="Assumir Chamado" superActivities="_7NIDIBOVEeaMab92HdiewQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Z3XnQBO0EeaoF8c2YfdgvQ" name="New Task Descriptor_3" guid="_Z3XnQBO0EeaoF8c2YfdgvQ" presentationName="Escalar Chamado" superActivities="_7NIDIBOVEeaMab92HdiewQ"/>
     </childPackages>
-    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_NbXVMROWEeaMab92HdiewQ" name="New Phase_3" guid="_NbXVMROWEeaMab92HdiewQ">
-      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_Nb9yIBOWEeaMab92HdiewQ" name="New Phase_3" guid="_Nb9yIBOWEeaMab92HdiewQ" presentationName="Homologação" superActivities="_g0ubARB_EeaMab92HdiewQ" linkToPredecessor="_XxgCkBOWEeaMab92HdiewQ"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_NbXVMROWEeaMab92HdiewQ" name="Homologação" guid="_NbXVMROWEeaMab92HdiewQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_Nb9yIBOWEeaMab92HdiewQ" name="Homologação" guid="_Nb9yIBOWEeaMab92HdiewQ" presentationName="Homologação" superActivities="_g0ubARB_EeaMab92HdiewQ" linkToPredecessor="_XxgCkBOWEeaMab92HdiewQ"/>
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_XxgCkBOWEeaMab92HdiewQ" guid="_XxgCkBOWEeaMab92HdiewQ" pred="_7NIDIBOVEeaMab92HdiewQ"/>
     </childPackages>
-    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_g0ubARB_EeaMab92HdiewQ" name="processo_atendimento_chamados_ifrn" guid="_g0ubARB_EeaMab92HdiewQ" presentationName="processo_atendimento_chamados_ifrn" breakdownElements="_6TLY0ROUEeaMab92HdiewQ _7NIDIBOVEeaMab92HdiewQ _Nb9yIBOWEeaMab92HdiewQ">
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_g0ubARB_EeaMab92HdiewQ" name="processo_atendimento_chamados_ifrn" guid="_g0ubARB_EeaMab92HdiewQ" presentationName="Atendimento Central de Serviços SUAP" breakdownElements="_6TLY0ROUEeaMab92HdiewQ _7NIDIBOVEeaMab92HdiewQ _Nb9yIBOWEeaMab92HdiewQ">
       <presentation xmi:id="-fqGWGpuhSNwxYZVmzF6Q5Q" href="uma://-fqGWGpuhSNwxYZVmzF6Q5Q#-fqGWGpuhSNwxYZVmzF6Q5Q"/>
       <defaultContext href="uma://_wg_8ERB-EeaMab92HdiewQ#_IQhFYBB_EeaMab92HdiewQ"/>
       <validContext href="uma://_wg_8ERB-EeaMab92HdiewQ#_IQhFYBB_EeaMab92HdiewQ"/>
