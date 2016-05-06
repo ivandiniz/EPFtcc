@@ -5,7 +5,19 @@
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:ProcessComponent xmi:id="_g0ubABB_EeaMab92HdiewQ" name="processo_atendimento_chamados_ifrn" guid="_g0ubABB_EeaMab92HdiewQ">
     <methodElementProperty xmi:id="_g0ubAhB_EeaMab92HdiewQ" name="pkg_loadCheck" value="true"/>
-    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_g0ubARB_EeaMab92HdiewQ" name="processo_atendimento_chamados_ifrn" guid="_g0ubARB_EeaMab92HdiewQ" presentationName="processo_atendimento_chamados_ifrn">
+    <methodElementProperty xmi:id="_5KkgEBOWEeaMab92HdiewQ" name="me_edited" value="true"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_6RiaEBOUEeaMab92HdiewQ" name="New Phase" guid="_6RiaEBOUEeaMab92HdiewQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_6TLY0ROUEeaMab92HdiewQ" name="New Phase" guid="_6TLY0ROUEeaMab92HdiewQ" presentationName="Distribuição" superActivities="_g0ubARB_EeaMab92HdiewQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_7M-5MBOVEeaMab92HdiewQ" name="New Phase_2" guid="_7M-5MBOVEeaMab92HdiewQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_7NIDIBOVEeaMab92HdiewQ" name="New Phase_2" guid="_7NIDIBOVEeaMab92HdiewQ" presentationName="Atendimento" superActivities="_g0ubARB_EeaMab92HdiewQ" linkToPredecessor="_W-xlIBOWEeaMab92HdiewQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_W-xlIBOWEeaMab92HdiewQ" guid="_W-xlIBOWEeaMab92HdiewQ" pred="_6TLY0ROUEeaMab92HdiewQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_NbXVMROWEeaMab92HdiewQ" name="New Phase_3" guid="_NbXVMROWEeaMab92HdiewQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_Nb9yIBOWEeaMab92HdiewQ" name="New Phase_3" guid="_Nb9yIBOWEeaMab92HdiewQ" presentationName="Homologação" superActivities="_g0ubARB_EeaMab92HdiewQ" linkToPredecessor="_XxgCkBOWEeaMab92HdiewQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_XxgCkBOWEeaMab92HdiewQ" guid="_XxgCkBOWEeaMab92HdiewQ" pred="_7NIDIBOVEeaMab92HdiewQ"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_g0ubARB_EeaMab92HdiewQ" name="processo_atendimento_chamados_ifrn" guid="_g0ubARB_EeaMab92HdiewQ" presentationName="processo_atendimento_chamados_ifrn" breakdownElements="_6TLY0ROUEeaMab92HdiewQ _7NIDIBOVEeaMab92HdiewQ _Nb9yIBOWEeaMab92HdiewQ">
       <presentation xmi:id="-fqGWGpuhSNwxYZVmzF6Q5Q" href="uma://-fqGWGpuhSNwxYZVmzF6Q5Q#-fqGWGpuhSNwxYZVmzF6Q5Q"/>
       <defaultContext href="uma://_wg_8ERB-EeaMab92HdiewQ#_IQhFYBB_EeaMab92HdiewQ"/>
       <validContext href="uma://_wg_8ERB-EeaMab92HdiewQ#_IQhFYBB_EeaMab92HdiewQ"/>
