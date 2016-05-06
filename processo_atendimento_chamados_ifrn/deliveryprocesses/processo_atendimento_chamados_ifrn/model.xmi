@@ -17,7 +17,7 @@
         <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_NKpH4ROyEeaoF8c2YfdgvQ" guid="_NKpH4ROyEeaoF8c2YfdgvQ" pred="_Di_nQROpEeaoF8c2YfdgvQ"/>
       </childPackages>
       <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_6TLY0ROUEeaMab92HdiewQ" name="Distribuição" guid="_6TLY0ROUEeaMab92HdiewQ" presentationName="Distribuição" superActivities="_g0ubARB_EeaMab92HdiewQ" breakdownElements="_a3nEoBOmEeaoF8c2YfdgvQ _BUJcAROnEeaoF8c2YfdgvQ"/>
-      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_a3nEoBOmEeaoF8c2YfdgvQ" name="Cadastrar Chamado" guid="_a3nEoBOmEeaoF8c2YfdgvQ" presentationName="Cadastrar Chamado" superActivities="_6TLY0ROUEeaMab92HdiewQ" isSynchronizedWithSource="false"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_a3nEoBOmEeaoF8c2YfdgvQ" name="Abrir Chamado" guid="_a3nEoBOmEeaoF8c2YfdgvQ" presentationName="Abrir Chamado" superActivities="_6TLY0ROUEeaMab92HdiewQ" isSynchronizedWithSource="false"/>
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_vRlOcBOmEeaoF8c2YfdgvQ" guid="_vRlOcBOmEeaoF8c2YfdgvQ" pred="_a3nEoBOmEeaoF8c2YfdgvQ"/>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_7M-5MBOVEeaMab92HdiewQ" name="Atendimento" guid="_7M-5MBOVEeaMab92HdiewQ">
@@ -39,8 +39,10 @@
       <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Z3XnQBO0EeaoF8c2YfdgvQ" name="Escalar Chamado" guid="_Z3XnQBO0EeaoF8c2YfdgvQ" presentationName="Escalar Chamado" superActivities="_7NIDIBOVEeaMab92HdiewQ" isSynchronizedWithSource="false"/>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_NbXVMROWEeaMab92HdiewQ" name="Homologação" guid="_NbXVMROWEeaMab92HdiewQ">
-      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_Nb9yIBOWEeaMab92HdiewQ" name="Homologação" guid="_Nb9yIBOWEeaMab92HdiewQ" presentationName="Homologação" superActivities="_g0ubARB_EeaMab92HdiewQ" linkToPredecessor="_XxgCkBOWEeaMab92HdiewQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_Nb9yIBOWEeaMab92HdiewQ" name="Homologação" guid="_Nb9yIBOWEeaMab92HdiewQ" presentationName="Homologação" superActivities="_g0ubARB_EeaMab92HdiewQ" linkToPredecessor="_XxgCkBOWEeaMab92HdiewQ" breakdownElements="_Z1f9ABPKEeaoF8c2YfdgvQ _fW0QgBPKEeaoF8c2YfdgvQ"/>
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_XxgCkBOWEeaMab92HdiewQ" guid="_XxgCkBOWEeaMab92HdiewQ" pred="_7NIDIBOVEeaMab92HdiewQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Z1f9ABPKEeaoF8c2YfdgvQ" name="Atualizar Status para Reaberto" guid="_Z1f9ABPKEeaoF8c2YfdgvQ" presentationName="Atualizar Status para Reaberto" superActivities="_Nb9yIBOWEeaMab92HdiewQ" isSynchronizedWithSource="false"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_fW0QgBPKEeaoF8c2YfdgvQ" name="Fechar Chamado e Avaliar Atendimento" guid="_fW0QgBPKEeaoF8c2YfdgvQ" presentationName="Fechar Chamado e Avaliar Atendimento" superActivities="_Nb9yIBOWEeaMab92HdiewQ" isSynchronizedWithSource="false"/>
     </childPackages>
     <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_g0ubARB_EeaMab92HdiewQ" name="processo_atendimento_chamados_ifrn" guid="_g0ubARB_EeaMab92HdiewQ" presentationName="Atendimento Central de Serviços SUAP" breakdownElements="_6TLY0ROUEeaMab92HdiewQ _7NIDIBOVEeaMab92HdiewQ _Nb9yIBOWEeaMab92HdiewQ">
       <presentation xmi:id="-fqGWGpuhSNwxYZVmzF6Q5Q" href="uma://-fqGWGpuhSNwxYZVmzF6Q5Q#-fqGWGpuhSNwxYZVmzF6Q5Q"/>
