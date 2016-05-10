@@ -1,2 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:DeliveryProcessDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-fqGWGpuhSNwxYZVmzF6Q5Q" name="processo_atendimento_chamados_ifrn,_g0ubARB_EeaMab92HdiewQ" guid="-fqGWGpuhSNwxYZVmzF6Q5Q"/>
+<org.eclipse.epf.uma:DeliveryProcessDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-fqGWGpuhSNwxYZVmzF6Q5Q" name="processo_atendimento_chamados_ifrn,_g0ubARB_EeaMab92HdiewQ" guid="-fqGWGpuhSNwxYZVmzF6Q5Q">
+  <mainDescription>&lt;p>&#xD;
+    Descrição de TODAS as etapas do processo&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    TODO&#xD;
+&lt;/p></mainDescription>
+  <purpose>&lt;p>&#xD;
+    Este trabalho&amp;nbsp;foi elaborado com o propósito de documentar o processo de atendimento de chamados&amp;nbsp; de TI&#xD;
+    através da Central de Serviços do SUAP no IFRN.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Contextualizar o propósito&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:DeliveryProcessDescription>
