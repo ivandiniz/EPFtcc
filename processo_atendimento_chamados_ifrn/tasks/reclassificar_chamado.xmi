@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-UhhylNBEYcW-8QalhDdC4w" name=",_H4yXABk0EeaUbOzn_w0V4A" guid="-UhhylNBEYcW-8QalhDdC4w">
-  <purpose>Reclassificar o tipo de serviço do chamado&amp;nbsp;que não estiver de acordo com a demanda.&amp;nbsp;O tipo de serviço escolhido&#xD;
-pelo requisitante no momento de abertura do chamado, irá influenciar na distribuição do chamado para a Central de&#xD;
-Atendimento adequada para aquele tipo de serviço, logo, o chamado estar classificado corretamente é de suma importância&#xD;
-para tal demanda ser atendida corretamente.</purpose>
-</org.eclipse.epf.uma:TaskDescription>

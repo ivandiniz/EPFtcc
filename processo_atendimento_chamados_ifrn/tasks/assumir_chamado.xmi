@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Hv6EDWr7aDG-a1266qel5w" name="assumir_chamado,_ohoDsBkvEeaTKPMXZkcAAg" guid="-Hv6EDWr7aDG-a1266qel5w" changeDate="2016-05-13T14:42:31.746-0300">
-  <mainDescription>Teste de descrição</mainDescription>
-  <purpose>&lt;p>&#xD;
-    Assumir um chamado existente e resolver a demanda solicitada pelo requisitante.&#xD;
-&lt;/p></purpose>
-</org.eclipse.epf.uma:TaskDescription>

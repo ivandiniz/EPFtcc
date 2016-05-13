@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:MethodConfiguration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_OfkfEBBzEeaD0v6SeVvsRw" name="atendimento_chamado_ifrn" guid="_OfkfEBBzEeaD0v6SeVvsRw">
-  <methodElementProperty xmi:id="_ESk_QBB2EeaD0v6SeVvsRw" name="TouchedByConfigEditor" value="true"/>
-  <methodElementProperty xmi:id="_ESk_QRB2EeaD0v6SeVvsRw" name="Config_doneLoadCheckPkgs" value="_2B-HwBByEeaD0v6SeVvsRw/_S9vTgBBzEeaD0v6SeVvsRw"/>
-  <methodElementProperty xmi:id="_FYtg4BB2EeaD0v6SeVvsRw" name="me_edited" value="true"/>
-  <addedCategory xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_rEPO4BByEeaD0v6SeVvsRw#_rEPO6xByEeaD0v6SeVvsRw"/>
-  <addedCategory xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_rEPO4BByEeaD0v6SeVvsRw#_ScGCMBB3EeaD0v6SeVvsRw"/>
-  <addedCategory xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_rEPO4BByEeaD0v6SeVvsRw#_zdEasBB1EeaD0v6SeVvsRw"/>
-</org.eclipse.epf.uma:MethodConfiguration>
