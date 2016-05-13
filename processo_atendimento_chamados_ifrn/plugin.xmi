@@ -3,6 +3,8 @@
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_15QaMRB-EeaMab92HdiewQ" guid="_15QaMRB-EeaMab92HdiewQ">
     <subManagers xmi:id="_g2WysRB_EeaMab92HdiewQ" href="uma://_g0ubABB_EeaMab92HdiewQ#_g2WysRB_EeaMab92HdiewQ"/>
     <resourceDescriptors xmi:id="_g03k8RB_EeaMab92HdiewQ" id="_g0ubABB_EeaMab92HdiewQ" uri="deliveryprocesses/processo_atendimento_chamados_ifrn/model.xmi"/>
+    <resourceDescriptors xmi:id="_P-higRlJEeac27aqqQzB_Q" id="-PKB8X5yk_j7q5NBddteFLA" uri="tasks/abrir_chamado.xmi"/>
+    <resourceDescriptors xmi:id="_NZu_oRlLEeac27aqqQzB_Q" id="-4jVdVz_x8-1LS6d6cU85iw" uri="tasks/atribuir_chamado.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_15GpMBB-EeaMab92HdiewQ" name="processo_atendimento_chamados_ifrn" guid="_15GpMBB-EeaMab92HdiewQ" changeDate="2016-05-02T12:59:46.334-0300">
     <methodElementProperty xmi:id="_15ZkIBB-EeaMab92HdiewQ" name="plugin_synFree" value="true"/>
@@ -25,6 +27,50 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_J6ytMBlDEeaUbOzn_w0V4A" name="central_de_servicos" guid="_J6ytMBlDEeaUbOzn_w0V4A" presentationName="Central de Serviços">
           <methodElementProperty xmi:id="_J6ytMRlDEeaUbOzn_w0V4A" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_922kwBlDEeaUbOzn_w0V4A" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_YykH0BlFEeac27aqqQzB_Q" name="atendente" guid="_YykH0BlFEeac27aqqQzB_Q" presentationName="Atendente" briefDescription="Membro da equipe responsável por atender chamados pertencentes ao Grupo de Atendimento no qual pertence.">
+            <methodElementProperty xmi:id="_aMtxoBlFEeac27aqqQzB_Q" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_7MwrIBlFEeac27aqqQzB_Q" name="responsavel_grupo" guid="_7MwrIBlFEeac27aqqQzB_Q" presentationName="Responsável por Grupo de Atendimento" briefDescription="Membro da equipe responsável pelo Grupo de Atendimento no qual pertence.">
+            <methodElementProperty xmi:id="_Bu6wkBlGEeac27aqqQzB_Q" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_JH0QwBlGEeac27aqqQzB_Q" name="suap" guid="_JH0QwBlGEeac27aqqQzB_Q" presentationName="SUAP" briefDescription="Sistema Unificado de Administração Pública">
+            <methodElementProperty xmi:id="_NFlG0BlGEeac27aqqQzB_Q" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_OH6GgBlGEeac27aqqQzB_Q" name="interessado" guid="_OH6GgBlGEeac27aqqQzB_Q" presentationName="Interessado" briefDescription="Servidor, Prestador de Serviço ou Aluno do IFRN que solicita alguma demanda via Central de Serviços do SUAP">
+            <methodElementProperty xmi:id="_P-TncBlGEeac27aqqQzB_Q" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8X7oUBlGEeac27aqqQzB_Q" name="abrir_chamado" guid="_8X7oUBlGEeac27aqqQzB_Q" presentationName="Abrir Chamado" briefDescription="Solicitação de demanda de TI tomando como referência o Catálogo de Serviços existente na Central de Serviços do SUAP." performedBy="_YykH0BlFEeac27aqqQzB_Q _OH6GgBlGEeac27aqqQzB_Q _7MwrIBlFEeac27aqqQzB_Q">
+            <methodElementProperty xmi:id="_LwCawBlHEeac27aqqQzB_Q" name="me_edited" value="true"/>
+            <presentation xmi:id="-PKB8X5yk_j7q5NBddteFLA" href="uma://-PKB8X5yk_j7q5NBddteFLA#-PKB8X5yk_j7q5NBddteFLA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_c0goYBlHEeac27aqqQzB_Q" name="identificar_interessado" guid="_c0goYBlHEeac27aqqQzB_Q" presentationName="Identificar Interessado" briefDescription="O sistema identifica o interessado da demanda através da Base de Dados do SUAP." performedBy="_JH0QwBlGEeac27aqqQzB_Q">
+            <methodElementProperty xmi:id="_ngMvABlHEeac27aqqQzB_Q" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_vdShYBlHEeac27aqqQzB_Q" name="identificar_servio_solicitado" guid="_vdShYBlHEeac27aqqQzB_Q" presentationName="Identificar Serviço Solicitado" briefDescription="O sistema identifica o tipo de serviço através da escolha do requisitante no momento da abertura do chamado na Central de Serviços." performedBy="_JH0QwBlGEeac27aqqQzB_Q">
+            <methodElementProperty xmi:id="_8DDvEBlHEeac27aqqQzB_Q" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_HaN0kBlIEeac27aqqQzB_Q" name="distribuir_chamado_para_central_de_atendimento_responsavel" guid="_HaN0kBlIEeac27aqqQzB_Q" presentationName="Distribuir Chamado para Central de Atendimento Responsável" briefDescription="De acordo com o tipo de serviço selecionado no momento da abertura do chamado, o sistema irá direcionar a demanda para a Central de Atendimento Responsável por aquele tipo de serviço (Local, Sistêmica ou EAD)." performedBy="_JH0QwBlGEeac27aqqQzB_Q">
+            <methodElementProperty xmi:id="_L9mgMBlIEeac27aqqQzB_Q" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_478s0BlKEeac27aqqQzB_Q" name="atribuir_chamado" guid="_478s0BlKEeac27aqqQzB_Q" presentationName="Atribuir Chamado" briefDescription="Responsável por Grupo de Atendimento atribiu um chamado a um determinado atendente do grupo." performedBy="_7MwrIBlFEeac27aqqQzB_Q">
+            <methodElementProperty xmi:id="__wQSMBlKEeac27aqqQzB_Q" name="me_edited" value="true"/>
+            <presentation xmi:id="-4jVdVz_x8-1LS6d6cU85iw" href="uma://-4jVdVz_x8-1LS6d6cU85iw#-4jVdVz_x8-1LS6d6cU85iw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_P_8z8BlLEeac27aqqQzB_Q" name="assumir_chamado" guid="_P_8z8BlLEeac27aqqQzB_Q" presentationName="Assumir Chamado" briefDescription="Atendente assume um chamado do Grupo de Atendimento no qual pertence." performedBy="_YykH0BlFEeac27aqqQzB_Q">
+            <methodElementProperty xmi:id="_bk76EBlLEeac27aqqQzB_Q" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_iUuL0BlLEeac27aqqQzB_Q" name="retornar_chamado" guid="_iUuL0BlLEeac27aqqQzB_Q" presentationName="Retornar Chamado" briefDescription="Atendente retorna um chamado anteriormente escalado, para o Grupo de Atendimento de origem." performedBy="_YykH0BlFEeac27aqqQzB_Q _7MwrIBlFEeac27aqqQzB_Q">
+            <methodElementProperty xmi:id="_jWzT4BlLEeac27aqqQzB_Q" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ynpAsBlLEeac27aqqQzB_Q" name="analizar_a_solicitacao_do_requisitante" guid="_ynpAsBlLEeac27aqqQzB_Q" presentationName="Analizar a Solicitação do Requisitante" briefDescription="Analiza a demanda solicitada através da categoria chamado informado pelo Requisitante." performedBy="_YykH0BlFEeac27aqqQzB_Q">
+            <methodElementProperty xmi:id="_3L2ywBlLEeac27aqqQzB_Q" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_GbflsBlMEeac27aqqQzB_Q" name="reclassificar_chamado" guid="_GbflsBlMEeac27aqqQzB_Q" presentationName="Reclassificar Chamado" briefDescription="Reclassificar de acordo com o catálogo de serviços, o tipo de serviço caso tenha sido aberto em categoria incorreta." performedBy="_YykH0BlFEeac27aqqQzB_Q">
+            <methodElementProperty xmi:id="_a39p4BlMEeac27aqqQzB_Q" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Ec2SQBlNEeac27aqqQzB_Q" name="analizar_problema_informado" guid="_Ec2SQBlNEeac27aqqQzB_Q" presentationName="Analizar Problema Informado" briefDescription="Analiza a demanda solicitada através da descrição do problema no chamado informado pelo Requisitante." performedBy="_YykH0BlFEeac27aqqQzB_Q">
+            <methodElementProperty xmi:id="_N66vMBlNEeac27aqqQzB_Q" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_15GpPRB-EeaMab92HdiewQ" name="CapabilityPatterns" guid="_15GpPRB-EeaMab92HdiewQ"/>

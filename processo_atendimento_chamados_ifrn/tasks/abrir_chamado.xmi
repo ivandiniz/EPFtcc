@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-PKB8X5yk_j7q5NBddteFLA" name=",_8X7oUBlGEeac27aqqQzB_Q" guid="-PKB8X5yk_j7q5NBddteFLA">
+  <sections xmi:id="_U21VQBlJEeac27aqqQzB_Q" name="Selecionar Tipo de Serviço no Catálogo" guid="_U21VQBlJEeac27aqqQzB_Q"/>
+  <sections xmi:id="_h18QABlJEeac27aqqQzB_Q" name="Informar o problema existente no Campo Descrição" guid="_h18QABlJEeac27aqqQzB_Q"/>
+  <sections xmi:id="_n6d-QBlJEeac27aqqQzB_Q" name="Adicionar outros interessados ao chamado  caso seja necessário" guid="_n6d-QBlJEeac27aqqQzB_Q"/>
+  <sections xmi:id="_tYg7UBlJEeac27aqqQzB_Q" name="Confirmar a abertura do Chamado" guid="_tYg7UBlJEeac27aqqQzB_Q"/>
+</org.eclipse.epf.uma:TaskDescription>
