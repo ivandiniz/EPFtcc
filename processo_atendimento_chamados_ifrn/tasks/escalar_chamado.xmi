@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-CW7yIUQBN8e2zpqlZiMnCQ" name=",_aI884BlOEeac27aqqQzB_Q" guid="-CW7yIUQBN8e2zpqlZiMnCQ">
+  <purpose>&lt;p>&#xD;
+    Transferir o chamado para um Grupo de Atendimento que tenha competências para resolver a demanda solicitada.&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

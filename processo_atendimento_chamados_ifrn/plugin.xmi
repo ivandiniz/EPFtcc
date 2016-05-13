@@ -5,6 +5,8 @@
     <resourceDescriptors xmi:id="_g03k8RB_EeaMab92HdiewQ" id="_g0ubABB_EeaMab92HdiewQ" uri="deliveryprocesses/processo_atendimento_chamados_ifrn/model.xmi"/>
     <resourceDescriptors xmi:id="_P-higRlJEeac27aqqQzB_Q" id="-PKB8X5yk_j7q5NBddteFLA" uri="tasks/abrir_chamado.xmi"/>
     <resourceDescriptors xmi:id="_NZu_oRlLEeac27aqqQzB_Q" id="-4jVdVz_x8-1LS6d6cU85iw" uri="tasks/atribuir_chamado.xmi"/>
+    <resourceDescriptors xmi:id="_Dw4HoRlOEeac27aqqQzB_Q" id="-ywhB_WUSTJOlmSiOQvIcrQ" uri="tasks/consultar_base_de_conhecimento.xmi"/>
+    <resourceDescriptors xmi:id="_uA_eUhlOEeac27aqqQzB_Q" id="-CW7yIUQBN8e2zpqlZiMnCQ" uri="tasks/escalar_chamado.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_15GpMBB-EeaMab92HdiewQ" name="processo_atendimento_chamados_ifrn" guid="_15GpMBB-EeaMab92HdiewQ" changeDate="2016-05-02T12:59:46.334-0300">
     <methodElementProperty xmi:id="_15ZkIBB-EeaMab92HdiewQ" name="plugin_synFree" value="true"/>
@@ -70,6 +72,14 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Ec2SQBlNEeac27aqqQzB_Q" name="analizar_problema_informado" guid="_Ec2SQBlNEeac27aqqQzB_Q" presentationName="Analizar Problema Informado" briefDescription="Analiza a demanda solicitada através da descrição do problema no chamado informado pelo Requisitante." performedBy="_YykH0BlFEeac27aqqQzB_Q">
             <methodElementProperty xmi:id="_N66vMBlNEeac27aqqQzB_Q" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_2mTjwBlNEeac27aqqQzB_Q" name="consultar_base_de_conhecimento" guid="_2mTjwBlNEeac27aqqQzB_Q" presentationName="Consultar Base de Conhecimento" briefDescription="Consultar a Base de Conhecimento da Central de Serviços " performedBy="_YykH0BlFEeac27aqqQzB_Q">
+            <methodElementProperty xmi:id="_352PQBlNEeac27aqqQzB_Q" name="me_edited" value="true"/>
+            <presentation xmi:id="-ywhB_WUSTJOlmSiOQvIcrQ" href="uma://-ywhB_WUSTJOlmSiOQvIcrQ#-ywhB_WUSTJOlmSiOQvIcrQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_aI884BlOEeac27aqqQzB_Q" name="escalar_chamado" guid="_aI884BlOEeac27aqqQzB_Q" presentationName="Escalar Chamado" briefDescription="Escalar chamado para o Grupo de Atendimento imediatamente superior." performedBy="_YykH0BlFEeac27aqqQzB_Q">
+            <methodElementProperty xmi:id="_uA_eUBlOEeac27aqqQzB_Q" name="me_edited" value="true"/>
+            <presentation xmi:id="-CW7yIUQBN8e2zpqlZiMnCQ" href="uma://-CW7yIUQBN8e2zpqlZiMnCQ#-CW7yIUQBN8e2zpqlZiMnCQ"/>
           </contentElements>
         </childPackages>
       </childPackages>
