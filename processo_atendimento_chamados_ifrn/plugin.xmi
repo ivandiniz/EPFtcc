@@ -21,7 +21,12 @@
           </childPackages>
         </childPackages>
       </childPackages>
-      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_15GpPBB-EeaMab92HdiewQ" name="CoreContent" guid="_15GpPBB-EeaMab92HdiewQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_15GpPBB-EeaMab92HdiewQ" name="CoreContent" guid="_15GpPBB-EeaMab92HdiewQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2wCFIBkZEeaI7-nxU7ipwQ" name="pacote_do_atendente" guid="_2wCFIBkZEeaI7-nxU7ipwQ" presentationName="Pacote do Atendente">
+          <methodElementProperty xmi:id="_2wCFIRkZEeaI7-nxU7ipwQ" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_ASUTsBkaEeaI7-nxU7ipwQ" name="me_edited" value="true"/>
+        </childPackages>
+      </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_15GpPRB-EeaMab92HdiewQ" name="CapabilityPatterns" guid="_15GpPRB-EeaMab92HdiewQ"/>
     </methodPackages>
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_15GpPhB-EeaMab92HdiewQ" name="DeliveryProcesses" guid="_15GpPhB-EeaMab92HdiewQ">
