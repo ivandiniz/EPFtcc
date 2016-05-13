@@ -3,6 +3,10 @@
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_15QaMRB-EeaMab92HdiewQ" guid="_15QaMRB-EeaMab92HdiewQ">
     <subManagers xmi:id="_g2WysRB_EeaMab92HdiewQ" href="uma://_g0ubABB_EeaMab92HdiewQ#_g2WysRB_EeaMab92HdiewQ"/>
     <resourceDescriptors xmi:id="_g03k8RB_EeaMab92HdiewQ" id="_g0ubABB_EeaMab92HdiewQ" uri="deliveryprocesses/processo_atendimento_chamados_ifrn/model.xmi"/>
+    <resourceDescriptors xmi:id="__PTK8BkuEeaTKPMXZkcAAg" id="-zXzv-qhuqN_CpZJCihamAw" uri="roles/atendente.xmi"/>
+    <resourceDescriptors xmi:id="_C4uBUBkyEeaUbOzn_w0V4A" id="-Hv6EDWr7aDG-a1266qel5w" uri="tasks/assumir_chamado.xmi"/>
+    <resourceDescriptors xmi:id="_L6LI0Bk0EeaUbOzn_w0V4A" id="-UhhylNBEYcW-8QalhDdC4w" uri="tasks/reclassificar_chamado.xmi"/>
+    <resourceDescriptors xmi:id="_twHIgBk0EeaUbOzn_w0V4A" id="--zv3PfcKHSKa8QCD1PUjHg" uri="tasks/retornar_chamado.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_15GpMBB-EeaMab92HdiewQ" name="processo_atendimento_chamados_ifrn" guid="_15GpMBB-EeaMab92HdiewQ" changeDate="2016-05-02T12:59:46.334-0300">
     <methodElementProperty xmi:id="_15ZkIBB-EeaMab92HdiewQ" name="plugin_synFree" value="true"/>
@@ -22,9 +26,34 @@
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_15GpPBB-EeaMab92HdiewQ" name="CoreContent" guid="_15GpPBB-EeaMab92HdiewQ">
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2wCFIBkZEeaI7-nxU7ipwQ" name="pacote_do_atendente" guid="_2wCFIBkZEeaI7-nxU7ipwQ" presentationName="Pacote do Atendente">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2wCFIBkZEeaI7-nxU7ipwQ" name="distribuicao" guid="_2wCFIBkZEeaI7-nxU7ipwQ" presentationName="Distribuição">
           <methodElementProperty xmi:id="_2wCFIRkZEeaI7-nxU7ipwQ" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_ASUTsBkaEeaI7-nxU7ipwQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_7Sm3cBkkEeaTKPMXZkcAAg" name="atendente" guid="_7Sm3cBkkEeaTKPMXZkcAAg" presentationName="Atendente" briefDescription="Membro da equipe responsável por atender chamados do Grupo de Atendimento no qual ele pertence.">
+            <methodElementProperty xmi:id="_EwMzQBklEeaTKPMXZkcAAg" name="me_edited" value="true"/>
+            <presentation xmi:id="-zXzv-qhuqN_CpZJCihamAw" href="uma://-zXzv-qhuqN_CpZJCihamAw#-zXzv-qhuqN_CpZJCihamAw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ohoDsBkvEeaTKPMXZkcAAg" name="assumir_chamado" guid="_ohoDsBkvEeaTKPMXZkcAAg" presentationName="Assumir Chamado" briefDescription="Atendente assume algum chamado que foi distribuído para a Central de Atendimento na qual ele pertence." performedBy="_7Sm3cBkkEeaTKPMXZkcAAg">
+            <methodElementProperty xmi:id="_84pnMBkvEeaTKPMXZkcAAg" name="me_edited" value="true"/>
+            <presentation xmi:id="-Hv6EDWr7aDG-a1266qel5w" href="uma://-Hv6EDWr7aDG-a1266qel5w#-Hv6EDWr7aDG-a1266qel5w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_aMB6UBkzEeaUbOzn_w0V4A" name="analizar_a_solicitao_do_requisitante" guid="_aMB6UBkzEeaUbOzn_w0V4A" presentationName="Analizar a Solicitação do Requisitante" performedBy="_7Sm3cBkkEeaTKPMXZkcAAg">
+            <methodElementProperty xmi:id="_eXE-cBkzEeaUbOzn_w0V4A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="__kMDkBkzEeaUbOzn_w0V4A" name="retornar_chamado" guid="__kMDkBkzEeaUbOzn_w0V4A" presentationName="Retornar Chamado" briefDescription="Retornar o Chamado previamente escalado para a Central de Atendimento de origem." performedBy="_7Sm3cBkkEeaTKPMXZkcAAg">
+            <methodElementProperty xmi:id="_BlTmwBk0EeaUbOzn_w0V4A" name="me_edited" value="true"/>
+            <presentation xmi:id="--zv3PfcKHSKa8QCD1PUjHg" href="uma://--zv3PfcKHSKa8QCD1PUjHg#--zv3PfcKHSKa8QCD1PUjHg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_H4yXABk0EeaUbOzn_w0V4A" name="reclassificar_chamado" guid="_H4yXABk0EeaUbOzn_w0V4A" presentationName="Reclassificar Chamado" briefDescription="Reclassificar o Tipo de Serviço do Chamado" performedBy="_7Sm3cBkkEeaTKPMXZkcAAg">
+            <methodElementProperty xmi:id="_L6FCMBk0EeaUbOzn_w0V4A" name="me_edited" value="true"/>
+            <presentation xmi:id="-UhhylNBEYcW-8QalhDdC4w" href="uma://-UhhylNBEYcW-8QalhDdC4w#-UhhylNBEYcW-8QalhDdC4w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_BU4y4Bk5EeaUbOzn_w0V4A" name="suap" guid="_BU4y4Bk5EeaUbOzn_w0V4A" presentationName="SUAP">
+            <methodElementProperty xmi:id="_C7xRIBk5EeaUbOzn_w0V4A" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_Dc_u4Bk5EeaUbOzn_w0V4A" name="requisitante" guid="_Dc_u4Bk5EeaUbOzn_w0V4A" presentationName="Requisitante">
+            <methodElementProperty xmi:id="_Eu2_YBk5EeaUbOzn_w0V4A" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_15GpPRB-EeaMab92HdiewQ" name="CapabilityPatterns" guid="_15GpPRB-EeaMab92HdiewQ"/>
