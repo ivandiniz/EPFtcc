@@ -16,9 +16,31 @@
         <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_NKpH4BOyEeaoF8c2YfdgvQ" guid="_NKpH4BOyEeaoF8c2YfdgvQ" pred="_MitwwBOoEeaoF8c2YfdgvQ"/>
         <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_NKpH4ROyEeaoF8c2YfdgvQ" guid="_NKpH4ROyEeaoF8c2YfdgvQ" pred="_Di_nQROpEeaoF8c2YfdgvQ"/>
       </childPackages>
-      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_6TLY0ROUEeaMab92HdiewQ" name="Distribuicao" guid="_6TLY0ROUEeaMab92HdiewQ" presentationName="Distribuição" briefDescription="Etapa de distribuição dos chamados abertos, levando em consideração o tipo de solicitação e o requisitante da demanda." superActivities="_g0ubARB_EeaMab92HdiewQ" breakdownElements="_a3nEoBOmEeaoF8c2YfdgvQ _BUJcAROnEeaoF8c2YfdgvQ"/>
-      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_a3nEoBOmEeaoF8c2YfdgvQ" name="Abrir Chamado" guid="_a3nEoBOmEeaoF8c2YfdgvQ" presentationName="Abrir Chamado" prefix="O usuário solicita a sua demanda técnica de TI através do módulo da Central de Serviços existente dentro do SUAP." superActivities="_6TLY0ROUEeaMab92HdiewQ" isSynchronizedWithSource="false"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_6TLY0ROUEeaMab92HdiewQ" name="Distribuicao" guid="_6TLY0ROUEeaMab92HdiewQ" presentationName="Distribuição" briefDescription="Etapa de distribuição dos chamados abertos, levando em consideração o tipo de solicitação e o requisitante da demanda." superActivities="_g0ubARB_EeaMab92HdiewQ" breakdownElements="_a3nEoBOmEeaoF8c2YfdgvQ _BUJcAROnEeaoF8c2YfdgvQ _rvx_gRxVEeaG6rLFhql7rA _rvx_hBxVEeaG6rLFhql7rA _rvx_hxxVEeaG6rLFhql7rA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_a3nEoBOmEeaoF8c2YfdgvQ" name="abrir_chamado" guid="_a3nEoBOmEeaoF8c2YfdgvQ" presentationName="Abrir Chamado" briefDescription="Solicitação de demanda de TI tomando como referência o Catálogo de Serviços existente na Central de Serviços do SUAP." prefix="O usuário solicita a sua demanda técnica de TI através do módulo da Central de Serviços existente dentro do SUAP." superActivities="_6TLY0ROUEeaMab92HdiewQ" isSynchronizedWithSource="false" performedPrimarilyBy="_rvx_gRxVEeaG6rLFhql7rA _rvx_hBxVEeaG6rLFhql7rA _rvx_hxxVEeaG6rLFhql7rA">
+        <methodElementProperty xmi:id="_rwhmYBxVEeaG6rLFhql7rA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_15GpMBB-EeaMab92HdiewQ#_8X7oUBlGEeac27aqqQzB_Q"/>
+        <selectedSteps href="uma://-PKB8X5yk_j7q5NBddteFLA#_U21VQBlJEeac27aqqQzB_Q"/>
+        <selectedSteps href="uma://-PKB8X5yk_j7q5NBddteFLA#_h18QABlJEeac27aqqQzB_Q"/>
+        <selectedSteps href="uma://-PKB8X5yk_j7q5NBddteFLA#_n6d-QBlJEeac27aqqQzB_Q"/>
+        <selectedSteps href="uma://-PKB8X5yk_j7q5NBddteFLA#_tYg7UBlJEeac27aqqQzB_Q"/>
+      </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_vRlOcBOmEeaoF8c2YfdgvQ" guid="_vRlOcBOmEeaoF8c2YfdgvQ" pred="_a3nEoBOmEeaoF8c2YfdgvQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_rvx_gRxVEeaG6rLFhql7rA" name="atendente" guid="_rvx_gRxVEeaG6rLFhql7rA" presentationName="Atendente" briefDescription="Membro da equipe responsável por atender chamados pertencentes ao Grupo de Atendimento no qual pertence." isPlanned="false" superActivities="_6TLY0ROUEeaMab92HdiewQ">
+        <methodElementProperty xmi:id="_rvx_ghxVEeaG6rLFhql7rA" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_rwhmYRxVEeaG6rLFhql7rA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Role href="uma://_15GpMBB-EeaMab92HdiewQ#_YykH0BlFEeac27aqqQzB_Q"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_rvx_hBxVEeaG6rLFhql7rA" name="interessado" guid="_rvx_hBxVEeaG6rLFhql7rA" presentationName="Interessado" briefDescription="Servidor, Prestador de Serviço ou Aluno do IFRN que solicita alguma demanda via Central de Serviços do SUAP" isPlanned="false" superActivities="_6TLY0ROUEeaMab92HdiewQ">
+        <methodElementProperty xmi:id="_rvx_hRxVEeaG6rLFhql7rA" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_rwrXYBxVEeaG6rLFhql7rA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Role href="uma://_15GpMBB-EeaMab92HdiewQ#_OH6GgBlGEeac27aqqQzB_Q"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_rvx_hxxVEeaG6rLFhql7rA" name="responsavel_grupo" guid="_rvx_hxxVEeaG6rLFhql7rA" presentationName="Responsável por Grupo de Atendimento" briefDescription="Membro da equipe responsável pelo Grupo de Atendimento no qual pertence." isPlanned="false" superActivities="_6TLY0ROUEeaMab92HdiewQ">
+        <methodElementProperty xmi:id="_rvx_iBxVEeaG6rLFhql7rA" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_rwrXYRxVEeaG6rLFhql7rA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Role href="uma://_15GpMBB-EeaMab92HdiewQ#_7MwrIBlFEeac27aqqQzB_Q"/>
+      </processElements>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_7M-5MBOVEeaMab92HdiewQ" name="Atendimento" guid="_7M-5MBOVEeaMab92HdiewQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_t-qssRO0EeaoF8c2YfdgvQ" name="Atender Chamado" guid="_t-qssRO0EeaoF8c2YfdgvQ">
