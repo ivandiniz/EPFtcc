@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-drM2QbNICpai97Noa0lIaQ" name=",_kKkyoB4LEeaG6rLFhql7rA" guid="-drM2QbNICpai97Noa0lIaQ" changeDate="2016-05-19T18:53:42.399-0300">
+  <sections xmi:id="_N-CpkB4MEeaG6rLFhql7rA" name="Clicar no botão Suspender" guid="_N-CpkB4MEeaG6rLFhql7rA"/>
+  <purpose>Suspender a solicitação enquanto aguarda que os fatores externos sejam atendidos.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

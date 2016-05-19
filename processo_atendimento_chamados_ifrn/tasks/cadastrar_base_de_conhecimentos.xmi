@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-5gixF3J0NhqN3izeisbIkw" name=",_3vPkwB4OEeaG6rLFhql7rA" guid="-5gixF3J0NhqN3izeisbIkw" changeDate="2016-05-19T19:15:37.193-0300">
+  <sections xmi:id="_6qSkIB4PEeaG6rLFhql7rA" name="Acessar Base de Conhecimento na Central de Serviços" guid="_6qSkIB4PEeaG6rLFhql7rA"/>
+  <sections xmi:id="_85HzMB4PEeaG6rLFhql7rA" name="Clicar em Adicionar Base de Conhecimento" guid="_85HzMB4PEeaG6rLFhql7rA"/>
+  <sections xmi:id="__pkhkB4PEeaG6rLFhql7rA" name="Descrever o Título, Resumo e Solução do problema" guid="__pkhkB4PEeaG6rLFhql7rA"/>
+  <sections xmi:id="_KbZscB4QEeaG6rLFhql7rA" name="Escolher Grupos de Atendimento que Visualizarão o Artigo" guid="_KbZscB4QEeaG6rLFhql7rA"/>
+  <sections xmi:id="_SCc9YB4QEeaG6rLFhql7rA" name="Escolher Tipos de Serviço no Qual a Solução se Adequa" guid="_SCc9YB4QEeaG6rLFhql7rA"/>
+  <sections xmi:id="_WZi5cB4QEeaG6rLFhql7rA" name="Salvar" guid="_WZi5cB4QEeaG6rLFhql7rA"/>
+  <purpose>Enriquecer a Base de Conhecimentos com a soução para determinado problema.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

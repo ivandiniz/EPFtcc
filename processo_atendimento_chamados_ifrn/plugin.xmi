@@ -7,6 +7,13 @@
     <resourceDescriptors xmi:id="_NZu_oRlLEeac27aqqQzB_Q" id="-4jVdVz_x8-1LS6d6cU85iw" uri="tasks/atribuir_chamado.xmi"/>
     <resourceDescriptors xmi:id="_Dw4HoRlOEeac27aqqQzB_Q" id="-ywhB_WUSTJOlmSiOQvIcrQ" uri="tasks/consultar_base_de_conhecimento.xmi"/>
     <resourceDescriptors xmi:id="_uA_eUhlOEeac27aqqQzB_Q" id="-CW7yIUQBN8e2zpqlZiMnCQ" uri="tasks/escalar_chamado.xmi"/>
+    <resourceDescriptors xmi:id="_gcZQsB4LEeaG6rLFhql7rA" id="-qZxfrlmlbKQbp3GwT-OPRQ" uri="tasks/status_em_atendimento.xmi"/>
+    <resourceDescriptors xmi:id="_RCkKgh4MEeaG6rLFhql7rA" id="-drM2QbNICpai97Noa0lIaQ" uri="tasks/status_suspenso.xmi"/>
+    <resourceDescriptors xmi:id="_h3nmoB4NEeaG6rLFhql7rA" id="-E57mi0XcZya0KzxFL6FcOg" uri="tasks/cadastrar_comentario.xmi"/>
+    <resourceDescriptors xmi:id="_X6ARgh4OEeaG6rLFhql7rA" id="-yG5idFen8JiZs4fF3yhXkA" uri="tasks/realizar_atendimento.xmi"/>
+    <resourceDescriptors xmi:id="_uRW4kB4PEeaG6rLFhql7rA" id="-5gixF3J0NhqN3izeisbIkw" uri="tasks/cadastrar_base_de_conhecimentos.xmi"/>
+    <resourceDescriptors xmi:id="_EeSYUh4REeaG6rLFhql7rA" id="-iHeUIZ28oUFa-fXgE8vSKA" uri="tasks/escolher_base_de_conhecimentos.xmi"/>
+    <resourceDescriptors xmi:id="_eOSLoh4REeaG6rLFhql7rA" id="-ti4sm-wOX2-SEhqnU-IqeQ" uri="tasks/status_resolvido.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_15GpMBB-EeaMab92HdiewQ" name="processo_atendimento_chamados_ifrn" guid="_15GpMBB-EeaMab92HdiewQ" changeDate="2016-05-02T12:59:46.334-0300">
     <methodElementProperty xmi:id="_15ZkIBB-EeaMab92HdiewQ" name="plugin_synFree" value="true"/>
@@ -21,8 +28,12 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_15GpOBB-EeaMab92HdiewQ" name="StandardCategories" guid="_15GpOBB-EeaMab92HdiewQ"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_15GpORB-EeaMab92HdiewQ" name="CustomCategories" guid="_15GpORB-EeaMab92HdiewQ">
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_15GpOhB-EeaMab92HdiewQ" name="Hidden" guid="_15GpOhB-EeaMab92HdiewQ">
-            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_15GpOxB-EeaMab92HdiewQ" name="Custom Categories" guid="_15GpOxB-EeaMab92HdiewQ"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_15GpOxB-EeaMab92HdiewQ" name="Custom Categories" guid="_15GpOxB-EeaMab92HdiewQ" categorizedElements="_SrRHQBxXEeaG6rLFhql7rA"/>
           </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_SrRHQBxXEeaG6rLFhql7rA" name="new_custom_category" guid="_SrRHQBxXEeaG6rLFhql7rA" presentationName="new_custom_category">
+            <methodElementProperty xmi:id="_ZajCsBxXEeaG6rLFhql7rA" name="me_edited" value="true"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_g0ubABB_EeaMab92HdiewQ#_g0ubARB_EeaMab92HdiewQ"/>
+          </contentElements>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_15GpPBB-EeaMab92HdiewQ" name="CoreContent" guid="_15GpPBB-EeaMab92HdiewQ">
@@ -48,7 +59,7 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_c0goYBlHEeac27aqqQzB_Q" name="identificar_interessado" guid="_c0goYBlHEeac27aqqQzB_Q" presentationName="Identificar Interessado" briefDescription="O sistema identifica o interessado da demanda através da Base de Dados do SUAP." performedBy="_JH0QwBlGEeac27aqqQzB_Q">
             <methodElementProperty xmi:id="_ngMvABlHEeac27aqqQzB_Q" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_vdShYBlHEeac27aqqQzB_Q" name="identificar_servio_solicitado" guid="_vdShYBlHEeac27aqqQzB_Q" presentationName="Identificar Serviço Solicitado" briefDescription="O sistema identifica o tipo de serviço através da escolha do requisitante no momento da abertura do chamado na Central de Serviços." performedBy="_JH0QwBlGEeac27aqqQzB_Q">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_vdShYBlHEeac27aqqQzB_Q" name="identificar_servico_solicitado" guid="_vdShYBlHEeac27aqqQzB_Q" presentationName="Identificar Serviço Solicitado" briefDescription="O sistema identifica o tipo de serviço através da escolha do requisitante no momento da abertura do chamado na Central de Serviços." performedBy="_JH0QwBlGEeac27aqqQzB_Q">
             <methodElementProperty xmi:id="_8DDvEBlHEeac27aqqQzB_Q" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_HaN0kBlIEeac27aqqQzB_Q" name="distribuir_chamado_para_central_de_atendimento_responsavel" guid="_HaN0kBlIEeac27aqqQzB_Q" presentationName="Distribuir Chamado para Central de Atendimento Responsável" briefDescription="De acordo com o tipo de serviço selecionado no momento da abertura do chamado, o sistema irá direcionar a demanda para a Central de Atendimento Responsável por aquele tipo de serviço (Local, Sistêmica ou EAD)." performedBy="_JH0QwBlGEeac27aqqQzB_Q">
@@ -80,6 +91,34 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_aI884BlOEeac27aqqQzB_Q" name="escalar_chamado" guid="_aI884BlOEeac27aqqQzB_Q" presentationName="Escalar Chamado" briefDescription="Escalar chamado para o Grupo de Atendimento imediatamente superior." performedBy="_YykH0BlFEeac27aqqQzB_Q">
             <methodElementProperty xmi:id="_uA_eUBlOEeac27aqqQzB_Q" name="me_edited" value="true"/>
             <presentation xmi:id="-CW7yIUQBN8e2zpqlZiMnCQ" href="uma://-CW7yIUQBN8e2zpqlZiMnCQ#-CW7yIUQBN8e2zpqlZiMnCQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_wKCDsB4KEeaG6rLFhql7rA" name="status_em_atendimento" guid="_wKCDsB4KEeaG6rLFhql7rA" presentationName="Atualizar Status para Em Atendimento" briefDescription="Atualiza o Status do chamado para Em Atendimento" performedBy="_YykH0BlFEeac27aqqQzB_Q">
+            <methodElementProperty xmi:id="_gcQGwB4LEeaG6rLFhql7rA" name="me_edited" value="true"/>
+            <presentation xmi:id="-qZxfrlmlbKQbp3GwT-OPRQ" href="uma://-qZxfrlmlbKQbp3GwT-OPRQ#-qZxfrlmlbKQbp3GwT-OPRQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_kKkyoB4LEeaG6rLFhql7rA" name="status_suspenso" guid="_kKkyoB4LEeaG6rLFhql7rA" presentationName="Atualizar Status para Suspenso" briefDescription="Suspender o chamado em virtude de necessitar de fatores externos para atender a soicitação do usuário." performedBy="_YykH0BlFEeac27aqqQzB_Q">
+            <methodElementProperty xmi:id="_RCkKgB4MEeaG6rLFhql7rA" name="me_edited" value="true"/>
+            <presentation xmi:id="-drM2QbNICpai97Noa0lIaQ" href="uma://-drM2QbNICpai97Noa0lIaQ#-drM2QbNICpai97Noa0lIaQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_z4LegB4MEeaG6rLFhql7rA" name="cadastrar_comentario" guid="_z4LegB4MEeaG6rLFhql7rA" presentationName="Cadastrar Comentário" briefDescription="Inserir um comentário ao chamado" performedBy="_YykH0BlFEeac27aqqQzB_Q _OH6GgBlGEeac27aqqQzB_Q">
+            <methodElementProperty xmi:id="_h3d1oB4NEeaG6rLFhql7rA" name="me_edited" value="true"/>
+            <presentation xmi:id="-E57mi0XcZya0KzxFL6FcOg" href="uma://-E57mi0XcZya0KzxFL6FcOg#-E57mi0XcZya0KzxFL6FcOg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_jLEykB4NEeaG6rLFhql7rA" name="realizar_atendimento" guid="_jLEykB4NEeaG6rLFhql7rA" presentationName="Realizar Atendimento" briefDescription="Realizar o atendimento propriamente dito, seja ele de forma presencial ou remota." performedBy="_YykH0BlFEeac27aqqQzB_Q">
+            <methodElementProperty xmi:id="_X6ARgB4OEeaG6rLFhql7rA" name="me_edited" value="true"/>
+            <presentation xmi:id="-yG5idFen8JiZs4fF3yhXkA" href="uma://-yG5idFen8JiZs4fF3yhXkA#-yG5idFen8JiZs4fF3yhXkA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3vPkwB4OEeaG6rLFhql7rA" name="cadastrar_base_de_conhecimentos" guid="_3vPkwB4OEeaG6rLFhql7rA" presentationName="Cadastrar Solução na Base de Conhecimentos" briefDescription="Escrever um artigo com o passo a passo da solução para determinado tipo de problema" performedBy="_7MwrIBlFEeac27aqqQzB_Q">
+            <methodElementProperty xmi:id="_uRNuoB4PEeaG6rLFhql7rA" name="me_edited" value="true"/>
+            <presentation xmi:id="-5gixF3J0NhqN3izeisbIkw" href="uma://-5gixF3J0NhqN3izeisbIkw#-5gixF3J0NhqN3izeisbIkw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_noNk4B4QEeaG6rLFhql7rA" name="escolher_base_de_conhecimentos" guid="_noNk4B4QEeaG6rLFhql7rA" presentationName="Escolher Solução na Base de Conhecimentos" briefDescription="Escolher uma solução existente na Base de Conhecimentos." performedBy="_YykH0BlFEeac27aqqQzB_Q">
+            <methodElementProperty xmi:id="_EeSYUB4REeaG6rLFhql7rA" name="me_edited" value="true"/>
+            <presentation xmi:id="-iHeUIZ28oUFa-fXgE8vSKA" href="uma://-iHeUIZ28oUFa-fXgE8vSKA#-iHeUIZ28oUFa-fXgE8vSKA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_MN69gB4REeaG6rLFhql7rA" name="status_resolvido" guid="_MN69gB4REeaG6rLFhql7rA" presentationName="Alterar Chamado para Resolvido" briefDescription="Alterar o Status do chamado para Resolvido." performedBy="_YykH0BlFEeac27aqqQzB_Q">
+            <methodElementProperty xmi:id="_eOSLoB4REeaG6rLFhql7rA" name="me_edited" value="true"/>
+            <presentation xmi:id="-ti4sm-wOX2-SEhqnU-IqeQ" href="uma://-ti4sm-wOX2-SEhqnU-IqeQ#-ti4sm-wOX2-SEhqnU-IqeQ"/>
           </contentElements>
         </childPackages>
       </childPackages>

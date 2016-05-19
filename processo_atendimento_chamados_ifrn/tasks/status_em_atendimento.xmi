@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-qZxfrlmlbKQbp3GwT-OPRQ" name=",_wKCDsB4KEeaG6rLFhql7rA" guid="-qZxfrlmlbKQbp3GwT-OPRQ" changeDate="2016-05-19T18:45:59.406-0300">
+  <sections xmi:id="_MMLf0B4LEeaG6rLFhql7rA" name="Clicar no botão Alterar para Em Atendimento " guid="_MMLf0B4LEeaG6rLFhql7rA"/>
+  <purpose>&lt;p>&#xD;
+    Informar ao interessado que a solicitação está sendo atendida.&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

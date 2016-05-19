@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-E57mi0XcZya0KzxFL6FcOg" name=",_z4LegB4MEeaG6rLFhql7rA" guid="-E57mi0XcZya0KzxFL6FcOg" changeDate="2016-05-19T19:01:26.440-0300">
+  <purpose>Promover a comunicação entre o atendente e o interessado com o intuito de acrescentar informações necessárias à&#xD;
+solicitação.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

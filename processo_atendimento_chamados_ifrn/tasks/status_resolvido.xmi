@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-ti4sm-wOX2-SEhqnU-IqeQ" name=",_MN69gB4REeaG6rLFhql7rA" guid="-ti4sm-wOX2-SEhqnU-IqeQ" changeDate="2016-05-19T19:31:29.881-0300">
+  <purpose>Informar ao interessado que a solicitação foi atendida.</purpose>
+</org.eclipse.epf.uma:TaskDescription>
