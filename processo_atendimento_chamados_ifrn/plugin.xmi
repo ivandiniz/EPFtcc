@@ -14,6 +14,9 @@
     <resourceDescriptors xmi:id="_uRW4kB4PEeaG6rLFhql7rA" id="-5gixF3J0NhqN3izeisbIkw" uri="tasks/cadastrar_base_de_conhecimentos.xmi"/>
     <resourceDescriptors xmi:id="_EeSYUh4REeaG6rLFhql7rA" id="-iHeUIZ28oUFa-fXgE8vSKA" uri="tasks/escolher_base_de_conhecimentos.xmi"/>
     <resourceDescriptors xmi:id="_eOSLoh4REeaG6rLFhql7rA" id="-ti4sm-wOX2-SEhqnU-IqeQ" uri="tasks/status_resolvido.xmi"/>
+    <resourceDescriptors xmi:id="_INdG0B4TEeaG6rLFhql7rA" id="-Z6fB29PDBoNeVomoSpWT8w" uri="tasks/reabrir_chamado.xmi"/>
+    <resourceDescriptors xmi:id="_e-3CEh4TEeaG6rLFhql7rA" id="--g6Z1MBAzPxZIqZyi0ab5w" uri="tasks/fechar_chamado.xmi"/>
+    <resourceDescriptors xmi:id="_zas0Ih4TEeaG6rLFhql7rA" id="-wjOoXUsSkBJFq0NJzuYAgQ" uri="tasks/avaliar_atendimento.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_15GpMBB-EeaMab92HdiewQ" name="processo_atendimento_chamados_ifrn" guid="_15GpMBB-EeaMab92HdiewQ" changeDate="2016-05-02T12:59:46.334-0300">
     <methodElementProperty xmi:id="_15ZkIBB-EeaMab92HdiewQ" name="plugin_synFree" value="true"/>
@@ -119,6 +122,18 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_MN69gB4REeaG6rLFhql7rA" name="status_resolvido" guid="_MN69gB4REeaG6rLFhql7rA" presentationName="Alterar Chamado para Resolvido" briefDescription="Alterar o Status do chamado para Resolvido." performedBy="_YykH0BlFEeac27aqqQzB_Q">
             <methodElementProperty xmi:id="_eOSLoB4REeaG6rLFhql7rA" name="me_edited" value="true"/>
             <presentation xmi:id="-ti4sm-wOX2-SEhqnU-IqeQ" href="uma://-ti4sm-wOX2-SEhqnU-IqeQ#-ti4sm-wOX2-SEhqnU-IqeQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_5GP3IB4SEeaG6rLFhql7rA" name="reabrir_chamado" guid="_5GP3IB4SEeaG6rLFhql7rA" presentationName="Reabrir Chamado" briefDescription="Reabrir um chamado marcado como Resolvido." performedBy="_7MwrIBlFEeac27aqqQzB_Q _OH6GgBlGEeac27aqqQzB_Q">
+            <methodElementProperty xmi:id="_INTV0B4TEeaG6rLFhql7rA" name="me_edited" value="true"/>
+            <presentation xmi:id="-Z6fB29PDBoNeVomoSpWT8w" href="uma://-Z6fB29PDBoNeVomoSpWT8w#-Z6fB29PDBoNeVomoSpWT8w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_JWDGkB4TEeaG6rLFhql7rA" name="fechar_chamado" guid="_JWDGkB4TEeaG6rLFhql7rA" presentationName="Fechar Chamado" briefDescription="Fechar um chamado já resolvido." performedBy="_OH6GgBlGEeac27aqqQzB_Q _7MwrIBlFEeac27aqqQzB_Q">
+            <methodElementProperty xmi:id="_e-3CEB4TEeaG6rLFhql7rA" name="me_edited" value="true"/>
+            <presentation xmi:id="--g6Z1MBAzPxZIqZyi0ab5w" href="uma://--g6Z1MBAzPxZIqZyi0ab5w#--g6Z1MBAzPxZIqZyi0ab5w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_g7rUEB4TEeaG6rLFhql7rA" name="avaliar_atendimento" guid="_g7rUEB4TEeaG6rLFhql7rA" presentationName="Avaliar Atendimento" briefDescription="Avaliar a qualidade do atendimento da solicitação." performedBy="_OH6GgBlGEeac27aqqQzB_Q">
+            <methodElementProperty xmi:id="_zas0IB4TEeaG6rLFhql7rA" name="me_edited" value="true"/>
+            <presentation xmi:id="-wjOoXUsSkBJFq0NJzuYAgQ" href="uma://-wjOoXUsSkBJFq0NJzuYAgQ#-wjOoXUsSkBJFq0NJzuYAgQ"/>
           </contentElements>
         </childPackages>
       </childPackages>

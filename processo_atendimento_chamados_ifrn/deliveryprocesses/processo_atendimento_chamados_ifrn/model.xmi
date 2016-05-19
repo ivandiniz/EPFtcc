@@ -184,11 +184,30 @@
       </processElements>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_NbXVMROWEeaMab92HdiewQ" name="Homologacao" guid="_NbXVMROWEeaMab92HdiewQ">
-      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_Nb9yIBOWEeaMab92HdiewQ" name="Homologacao" guid="_Nb9yIBOWEeaMab92HdiewQ" presentationName="Homologação" superActivities="_g0ubARB_EeaMab92HdiewQ" linkToPredecessor="_XxgCkBOWEeaMab92HdiewQ" breakdownElements="_Z1f9ABPKEeaoF8c2YfdgvQ _fW0QgBPKEeaoF8c2YfdgvQ _9MgTIBk2EeaUbOzn_w0V4A"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_Nb9yIBOWEeaMab92HdiewQ" name="Homologacao" guid="_Nb9yIBOWEeaMab92HdiewQ" presentationName="Homologação" superActivities="_g0ubARB_EeaMab92HdiewQ" linkToPredecessor="_XxgCkBOWEeaMab92HdiewQ" breakdownElements="_Z1f9ABPKEeaoF8c2YfdgvQ _fW0QgBPKEeaoF8c2YfdgvQ _9MgTIBk2EeaUbOzn_w0V4A _1l8jsR4TEeaG6rLFhql7rA _1l8jtB4TEeaG6rLFhql7rA"/>
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_XxgCkBOWEeaMab92HdiewQ" guid="_XxgCkBOWEeaMab92HdiewQ" pred="_7NIDIBOVEeaMab92HdiewQ"/>
-      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Z1f9ABPKEeaoF8c2YfdgvQ" name="Atualizar Status para Reaberto" guid="_Z1f9ABPKEeaoF8c2YfdgvQ" presentationName="Reabrir Chamado" superActivities="_Nb9yIBOWEeaMab92HdiewQ" isSynchronizedWithSource="false"/>
-      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_fW0QgBPKEeaoF8c2YfdgvQ" name="Fechar Chamado e Avaliar Atendimento" guid="_fW0QgBPKEeaoF8c2YfdgvQ" presentationName="Fechar Chamado" superActivities="_Nb9yIBOWEeaMab92HdiewQ" isSynchronizedWithSource="false"/>
-      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9MgTIBk2EeaUbOzn_w0V4A" name="New Task Descriptor" guid="_9MgTIBk2EeaUbOzn_w0V4A" presentationName="Avaliar Atendimento" superActivities="_Nb9yIBOWEeaMab92HdiewQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Z1f9ABPKEeaoF8c2YfdgvQ" name="reabrir_chamado" guid="_Z1f9ABPKEeaoF8c2YfdgvQ" presentationName="Reabrir Chamado" briefDescription="Reabrir um chamado marcado como Resolvido." superActivities="_Nb9yIBOWEeaMab92HdiewQ" isSynchronizedWithSource="false" performedPrimarilyBy="_1l8jsR4TEeaG6rLFhql7rA _1l8jtB4TEeaG6rLFhql7rA">
+        <methodElementProperty xmi:id="_1l8jth4TEeaG6rLFhql7rA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_15GpMBB-EeaMab92HdiewQ#_5GP3IB4SEeaG6rLFhql7rA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_fW0QgBPKEeaoF8c2YfdgvQ" name="fechar_chamado" guid="_fW0QgBPKEeaoF8c2YfdgvQ" presentationName="Fechar Chamado" briefDescription="Fechar um chamado já resolvido." superActivities="_Nb9yIBOWEeaMab92HdiewQ" isSynchronizedWithSource="false" performedPrimarilyBy="_1l8jtB4TEeaG6rLFhql7rA _1l8jsR4TEeaG6rLFhql7rA">
+        <methodElementProperty xmi:id="_3SY3YB4TEeaG6rLFhql7rA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_15GpMBB-EeaMab92HdiewQ#_JWDGkB4TEeaG6rLFhql7rA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9MgTIBk2EeaUbOzn_w0V4A" name="avaliar_atendimento" guid="_9MgTIBk2EeaUbOzn_w0V4A" presentationName="Avaliar Atendimento" briefDescription="Avaliar a qualidade do atendimento da solicitação." superActivities="_Nb9yIBOWEeaMab92HdiewQ" performedPrimarilyBy="_1l8jtB4TEeaG6rLFhql7rA">
+        <methodElementProperty xmi:id="_A0Da4B4UEeaG6rLFhql7rA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_15GpMBB-EeaMab92HdiewQ#_g7rUEB4TEeaG6rLFhql7rA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_1l8jsR4TEeaG6rLFhql7rA" name="responsavel_grupo" guid="_1l8jsR4TEeaG6rLFhql7rA" presentationName="Responsável por Grupo de Atendimento" briefDescription="Membro da equipe responsável pelo Grupo de Atendimento no qual pertence." isPlanned="false" superActivities="_Nb9yIBOWEeaMab92HdiewQ">
+        <methodElementProperty xmi:id="_1l8jsh4TEeaG6rLFhql7rA" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_1l8juB4TEeaG6rLFhql7rA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Role href="uma://_15GpMBB-EeaMab92HdiewQ#_7MwrIBlFEeac27aqqQzB_Q"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_1l8jtB4TEeaG6rLFhql7rA" name="interessado" guid="_1l8jtB4TEeaG6rLFhql7rA" presentationName="Interessado" briefDescription="Servidor, Prestador de Serviço ou Aluno do IFRN que solicita alguma demanda via Central de Serviços do SUAP" isPlanned="false" superActivities="_Nb9yIBOWEeaMab92HdiewQ">
+        <methodElementProperty xmi:id="_1l8jtR4TEeaG6rLFhql7rA" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_1l8jtx4TEeaG6rLFhql7rA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Role href="uma://_15GpMBB-EeaMab92HdiewQ#_OH6GgBlGEeac27aqqQzB_Q"/>
+      </processElements>
     </childPackages>
     <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_g0ubARB_EeaMab92HdiewQ" name="processo_atendimento_chamados_ifrn" guid="_g0ubARB_EeaMab92HdiewQ" presentationName="Atendimento Central de Serviços SUAP" briefDescription="Processo de Atendimento de Chamados via Central de Serviços do SUAP no IFRN" breakdownElements="_6TLY0ROUEeaMab92HdiewQ _7NIDIBOVEeaMab92HdiewQ _Nb9yIBOWEeaMab92HdiewQ">
       <presentation xmi:id="-fqGWGpuhSNwxYZVmzF6Q5Q" href="uma://-fqGWGpuhSNwxYZVmzF6Q5Q#-fqGWGpuhSNwxYZVmzF6Q5Q"/>

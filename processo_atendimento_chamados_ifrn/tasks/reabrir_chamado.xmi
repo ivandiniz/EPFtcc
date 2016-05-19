@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Z6fB29PDBoNeVomoSpWT8w" name=",_5GP3IB4SEeaG6rLFhql7rA" guid="-Z6fB29PDBoNeVomoSpWT8w" changeDate="2016-05-19T19:43:21.203-0300">
+  <purpose>Reabrir um chamado que não foi solucionado completamente.</purpose>
+</org.eclipse.epf.uma:TaskDescription>
