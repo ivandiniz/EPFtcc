@@ -33,7 +33,7 @@
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_15GpOhB-EeaMab92HdiewQ" name="Hidden" guid="_15GpOhB-EeaMab92HdiewQ">
             <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_15GpOxB-EeaMab92HdiewQ" name="Custom Categories" guid="_15GpOxB-EeaMab92HdiewQ" categorizedElements="_SrRHQBxXEeaG6rLFhql7rA"/>
           </childPackages>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_SrRHQBxXEeaG6rLFhql7rA" name="new_custom_category" guid="_SrRHQBxXEeaG6rLFhql7rA" presentationName="new_custom_category">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_SrRHQBxXEeaG6rLFhql7rA" name="visao_do_delivery_process" guid="_SrRHQBxXEeaG6rLFhql7rA" presentationName="Visão do Delivery Process">
             <methodElementProperty xmi:id="_ZajCsBxXEeaG6rLFhql7rA" name="me_edited" value="true"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_g0ubABB_EeaMab92HdiewQ#_g0ubARB_EeaMab92HdiewQ"/>
           </contentElements>
