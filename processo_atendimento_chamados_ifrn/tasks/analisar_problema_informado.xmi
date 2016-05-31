@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-UvtxmwcF9BTQYVXKCV4FpA" name="analizar_problema_informado,_Ec2SQBlNEeac27aqqQzB_Q" guid="-UvtxmwcF9BTQYVXKCV4FpA">
+  <purpose>Identificar os detalhes da demanda através da descrição informada pelo próprio requisitante.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

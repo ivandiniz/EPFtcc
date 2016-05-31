@@ -2,4 +2,5 @@
 <org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-4jVdVz_x8-1LS6d6cU85iw" name=",_478s0BlKEeac27aqqQzB_Q" guid="-4jVdVz_x8-1LS6d6cU85iw">
   <sections xmi:id="_KTwtMBlLEeac27aqqQzB_Q" name="Escolher o atendente" guid="_KTwtMBlLEeac27aqqQzB_Q"/>
   <sections xmi:id="_L_cy8BlLEeac27aqqQzB_Q" name="Confirmar atribuição" guid="_L_cy8BlLEeac27aqqQzB_Q"/>
+  <purpose>Atribuir um chamado&amp;nbsp;a algum atendente do grupo de atendimento.</purpose>
 </org.eclipse.epf.uma:TaskDescription>

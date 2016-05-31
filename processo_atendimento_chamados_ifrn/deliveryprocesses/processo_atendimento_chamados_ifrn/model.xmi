@@ -2,13 +2,21 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_g2WysRB_EeaMab92HdiewQ" guid="_g2WysRB_EeaMab92HdiewQ">
     <resourceDescriptors xmi:id="_g2WyshB_EeaMab92HdiewQ" id="-fqGWGpuhSNwxYZVmzF6Q5Q" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_x43fUCdmEeaHKe3VGz71fw" id="-IR_M3kmhefZYPtYIkilqWA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_x44tcCdmEeaHKe3VGz71fw" id="-XLRXWYguMfwtw053BKlq2g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_x46ioCdmEeaHKe3VGz71fw" id="-qTSrVw9DpyENRGJDnSOunQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_x48X0CdmEeaHKe3VGz71fw" id="-ubMHCgNp6TESlbfFSCk5UA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_x49l8CdmEeaHKe3VGz71fw" id="-4yggplsLFM5ymd4ix5fgwA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_x5ACMCdmEeaHKe3VGz71fw" id="-N7QEtNCARoybj2Pf2s2q4g" uri="content.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:ProcessComponent xmi:id="_g0ubABB_EeaMab92HdiewQ" name="processo_atendimento_chamados_ifrn" guid="_g0ubABB_EeaMab92HdiewQ">
     <methodElementProperty xmi:id="_g0ubAhB_EeaMab92HdiewQ" name="pkg_loadCheck" value="true"/>
     <methodElementProperty xmi:id="_5KkgEBOWEeaMab92HdiewQ" name="me_edited" value="true"/>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_6RiaEBOUEeaMab92HdiewQ" name="Distribuicao" guid="_6RiaEBOUEeaMab92HdiewQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_BUJcABOnEeaoF8c2YfdgvQ" name="Distribuir Chamado" guid="_BUJcABOnEeaoF8c2YfdgvQ">
-        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_BUJcAROnEeaoF8c2YfdgvQ" name="Distribuir Chamado" guid="_BUJcAROnEeaoF8c2YfdgvQ" presentationName="Distribuir Chamado" briefDescription="Etapa realizada automaticamente pelo SUAP para que a demanda seja direcionada para a Central de Atendimento correta(Local, Sistêmico ou EAD)." superActivities="_6TLY0ROUEeaMab92HdiewQ" linkToPredecessor="_CjtmcBOnEeaoF8c2YfdgvQ" breakdownElements="_MitwwBOoEeaoF8c2YfdgvQ _Di_nQROpEeaoF8c2YfdgvQ _jitsMROpEeaoF8c2YfdgvQ _ki2aoR4JEeaG6rLFhql7rA"/>
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_BUJcAROnEeaoF8c2YfdgvQ" name="Distribuir Chamado" guid="_BUJcAROnEeaoF8c2YfdgvQ" presentationName="Distribuir Chamado" briefDescription="Etapa realizada automaticamente pelo SUAP para que a demanda seja direcionada para a Central de Atendimento correta(Local, Sistêmico ou EAD)." superActivities="_6TLY0ROUEeaMab92HdiewQ" linkToPredecessor="_CjtmcBOnEeaoF8c2YfdgvQ" breakdownElements="_MitwwBOoEeaoF8c2YfdgvQ _Di_nQROpEeaoF8c2YfdgvQ _jitsMROpEeaoF8c2YfdgvQ _ki2aoR4JEeaG6rLFhql7rA">
+          <presentation xmi:id="-IR_M3kmhefZYPtYIkilqWA" href="uma://-fqGWGpuhSNwxYZVmzF6Q5Q#-IR_M3kmhefZYPtYIkilqWA"/>
+        </processElements>
         <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_CjtmcBOnEeaoF8c2YfdgvQ" guid="_CjtmcBOnEeaoF8c2YfdgvQ" pred="_a3nEoBOmEeaoF8c2YfdgvQ"/>
         <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_MitwwBOoEeaoF8c2YfdgvQ" name="identificar_interessado" guid="_MitwwBOoEeaoF8c2YfdgvQ" presentationName="Identificar Interessado" briefDescription="O sistema identifica o interessado da demanda através da Base de Dados do SUAP." prefix="Identifica o interessado da demanda através da informação do seu Campus de Lotação no SUAP (Docentes e TAEs) ou Campus no qual estuda (Dicentes)." superActivities="_BUJcAROnEeaoF8c2YfdgvQ" isSynchronizedWithSource="false" performedPrimarilyBy="_ki2aoR4JEeaG6rLFhql7rA">
           <methodElementProperty xmi:id="_ki_kkB4JEeaG6rLFhql7rA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
@@ -30,14 +38,12 @@
           <Role href="uma://_15GpMBB-EeaMab92HdiewQ#_JH0QwBlGEeac27aqqQzB_Q"/>
         </processElements>
       </childPackages>
-      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_6TLY0ROUEeaMab92HdiewQ" name="Distribuicao" guid="_6TLY0ROUEeaMab92HdiewQ" presentationName="Distribuição" briefDescription="Etapa de distribuição dos chamados abertos, levando em consideração o tipo de solicitação e o requisitante da demanda." superActivities="_g0ubARB_EeaMab92HdiewQ" breakdownElements="_a3nEoBOmEeaoF8c2YfdgvQ _BUJcAROnEeaoF8c2YfdgvQ _rvx_gRxVEeaG6rLFhql7rA _rvx_hBxVEeaG6rLFhql7rA _rvx_hxxVEeaG6rLFhql7rA"/>
-      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_a3nEoBOmEeaoF8c2YfdgvQ" name="abrir_chamado" guid="_a3nEoBOmEeaoF8c2YfdgvQ" presentationName="Abrir Chamado" briefDescription="Solicitação de demanda de TI tomando como referência o Catálogo de Serviços existente na Central de Serviços do SUAP." prefix="O usuário solicita a sua demanda técnica de TI através do módulo da Central de Serviços existente dentro do SUAP." superActivities="_6TLY0ROUEeaMab92HdiewQ" isSynchronizedWithSource="false" performedPrimarilyBy="_rvx_gRxVEeaG6rLFhql7rA _rvx_hBxVEeaG6rLFhql7rA _rvx_hxxVEeaG6rLFhql7rA">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_6TLY0ROUEeaMab92HdiewQ" name="Distribuicao" guid="_6TLY0ROUEeaMab92HdiewQ" presentationName="Distribuição" briefDescription="Etapa de distribuição dos chamados abertos, levando em consideração o tipo de solicitação e o requisitante da demanda." superActivities="_g0ubARB_EeaMab92HdiewQ" breakdownElements="_a3nEoBOmEeaoF8c2YfdgvQ _BUJcAROnEeaoF8c2YfdgvQ _rvx_gRxVEeaG6rLFhql7rA _rvx_hBxVEeaG6rLFhql7rA _rvx_hxxVEeaG6rLFhql7rA">
+        <presentation xmi:id="-XLRXWYguMfwtw053BKlq2g" href="uma://-fqGWGpuhSNwxYZVmzF6Q5Q#-XLRXWYguMfwtw053BKlq2g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_a3nEoBOmEeaoF8c2YfdgvQ" name="abrir_chamado" guid="_a3nEoBOmEeaoF8c2YfdgvQ" presentationName="Abrir Chamado" briefDescription="Solicitação de demanda de TI tomando como referência o Catálogo de Serviços existente na Central de Serviços do SUAP." prefix="O usuário solicita a sua demanda técnica de TI através do módulo da Central de Serviços existente dentro do SUAP." superActivities="_6TLY0ROUEeaMab92HdiewQ" isSynchronizedWithSource="false" additionallyPerformedBy="_rvx_gRxVEeaG6rLFhql7rA _rvx_hxxVEeaG6rLFhql7rA" performedPrimarilyBy="_rvx_hBxVEeaG6rLFhql7rA">
         <methodElementProperty xmi:id="_rwhmYBxVEeaG6rLFhql7rA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
         <Task href="uma://_15GpMBB-EeaMab92HdiewQ#_8X7oUBlGEeac27aqqQzB_Q"/>
-        <selectedSteps href="uma://-PKB8X5yk_j7q5NBddteFLA#_U21VQBlJEeac27aqqQzB_Q"/>
-        <selectedSteps href="uma://-PKB8X5yk_j7q5NBddteFLA#_h18QABlJEeac27aqqQzB_Q"/>
-        <selectedSteps href="uma://-PKB8X5yk_j7q5NBddteFLA#_n6d-QBlJEeac27aqqQzB_Q"/>
-        <selectedSteps href="uma://-PKB8X5yk_j7q5NBddteFLA#_tYg7UBlJEeac27aqqQzB_Q"/>
       </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_vRlOcBOmEeaoF8c2YfdgvQ" guid="_vRlOcBOmEeaoF8c2YfdgvQ" pred="_a3nEoBOmEeaoF8c2YfdgvQ"/>
       <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_rvx_gRxVEeaG6rLFhql7rA" name="atendente" guid="_rvx_gRxVEeaG6rLFhql7rA" presentationName="Atendente" briefDescription="Membro da equipe responsável por atender chamados pertencentes ao Grupo de Atendimento no qual pertence." isPlanned="false" superActivities="_6TLY0ROUEeaMab92HdiewQ">
@@ -58,7 +64,9 @@
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_7M-5MBOVEeaMab92HdiewQ" name="Atendimento" guid="_7M-5MBOVEeaMab92HdiewQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_t-qssRO0EeaoF8c2YfdgvQ" name="Atender Chamado" guid="_t-qssRO0EeaoF8c2YfdgvQ">
-        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_t-qsshO0EeaoF8c2YfdgvQ" name="Atender Chamado" guid="_t-qsshO0EeaoF8c2YfdgvQ" presentationName="Atender Chamado" superActivities="_7NIDIBOVEeaMab92HdiewQ" breakdownElements="_YgasUBO9EeaoF8c2YfdgvQ _K8NPcBbpEea9TrfubCHhXg _o36pwRO-EeaoF8c2YfdgvQ _9lm2QRO9EeaoF8c2YfdgvQ _BI7PMBPCEeaoF8c2YfdgvQ _QPu2QRPCEeaoF8c2YfdgvQ _dTsb0BPCEeaoF8c2YfdgvQ _pty74R4REeaG6rLFhql7rA _t1RHkR4REeaG6rLFhql7rA _xOwy8R4REeaG6rLFhql7rA"/>
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_t-qsshO0EeaoF8c2YfdgvQ" name="Atender Chamado" guid="_t-qsshO0EeaoF8c2YfdgvQ" presentationName="Atender Chamado" briefDescription="Realizar o atendimento do chamado." superActivities="_7NIDIBOVEeaMab92HdiewQ" breakdownElements="_YgasUBO9EeaoF8c2YfdgvQ _K8NPcBbpEea9TrfubCHhXg _o36pwRO-EeaoF8c2YfdgvQ _9lm2QRO9EeaoF8c2YfdgvQ _BI7PMBPCEeaoF8c2YfdgvQ _QPu2QRPCEeaoF8c2YfdgvQ _dTsb0BPCEeaoF8c2YfdgvQ _pty74R4REeaG6rLFhql7rA _t1RHkR4REeaG6rLFhql7rA _xOwy8R4REeaG6rLFhql7rA">
+          <presentation xmi:id="-qTSrVw9DpyENRGJDnSOunQ" href="uma://-fqGWGpuhSNwxYZVmzF6Q5Q#-qTSrVw9DpyENRGJDnSOunQ"/>
+        </processElements>
         <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_YgasUBO9EeaoF8c2YfdgvQ" name="status_em_atendimento" guid="_YgasUBO9EeaoF8c2YfdgvQ" presentationName="Atualizar Status para Em Atendimento" briefDescription="Atualiza o Status do chamado para Em Atendimento" superActivities="_t-qsshO0EeaoF8c2YfdgvQ" isSynchronizedWithSource="false" performedPrimarilyBy="_pty74R4REeaG6rLFhql7rA">
           <methodElementProperty xmi:id="_pty74x4REeaG6rLFhql7rA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
           <Task href="uma://_15GpMBB-EeaMab92HdiewQ#_wKCDsB4KEeaG6rLFhql7rA"/>
@@ -89,6 +97,7 @@
         <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_dTsb0BPCEeaoF8c2YfdgvQ" name="status_resolvido" guid="_dTsb0BPCEeaoF8c2YfdgvQ" presentationName="Alterar Chamado para Resolvido" briefDescription="Alterar o Status do chamado para Resolvido." superActivities="_t-qsshO0EeaoF8c2YfdgvQ" linkToPredecessor="_sl3lYBPCEeaoF8c2YfdgvQ" isSynchronizedWithSource="false" performedPrimarilyBy="_pty74R4REeaG6rLFhql7rA">
           <methodElementProperty xmi:id="_2l0-QB4REeaG6rLFhql7rA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
           <Task href="uma://_15GpMBB-EeaMab92HdiewQ#_MN69gB4REeaG6rLFhql7rA"/>
+          <selectedSteps href="uma://-ti4sm-wOX2-SEhqnU-IqeQ#_eGrZICdkEeaHKe3VGz71fw"/>
         </processElements>
         <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_sl3lYBPCEeaoF8c2YfdgvQ" guid="_sl3lYBPCEeaoF8c2YfdgvQ" pred="_QPu2QRPCEeaoF8c2YfdgvQ"/>
         <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_K8NPcBbpEea9TrfubCHhXg" name="status_suspenso" guid="_K8NPcBbpEea9TrfubCHhXg" presentationName="Atualizar Status para Suspenso" briefDescription="Suspender o chamado em virtude de necessitar de fatores externos para atender a soicitação do usuário." superActivities="_t-qsshO0EeaoF8c2YfdgvQ" isSynchronizedWithSource="false" performedPrimarilyBy="_pty74R4REeaG6rLFhql7rA">
@@ -114,7 +123,9 @@
         </processElements>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_YjjuMBkTEeaI7-nxU7ipwQ" name="Distribuir Chamado" guid="_YjjuMBkTEeaI7-nxU7ipwQ">
-        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_YjjuNRkTEeaI7-nxU7ipwQ" name="Distribuir Chamado" guid="_YjjuNRkTEeaI7-nxU7ipwQ" presentationName="Distribuir Chamado" briefDescription="Etapa realizada automaticamente pelo SUAP para que a demanda seja direcionada para a Central de Atendimento correta(Local, Sistêmico ou EAD)." superActivities="_7NIDIBOVEeaMab92HdiewQ" linkToPredecessor="_YjjuNxkTEeaI7-nxU7ipwQ" breakdownElements="_YjjuNhkTEeaI7-nxU7ipwQ _YjjuMxkTEeaI7-nxU7ipwQ _YjjuMRkTEeaI7-nxU7ipwQ _X8x1gR4KEeaG6rLFhql7rA"/>
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_YjjuNRkTEeaI7-nxU7ipwQ" name="Distribuir Chamado" guid="_YjjuNRkTEeaI7-nxU7ipwQ" presentationName="Distribuir Chamado" briefDescription="Etapa realizada automaticamente pelo SUAP para que a demanda seja direcionada para a Central de Atendimento correta(Local, Sistêmico ou EAD)." superActivities="_7NIDIBOVEeaMab92HdiewQ" linkToPredecessor="_YjjuNxkTEeaI7-nxU7ipwQ" breakdownElements="_YjjuNhkTEeaI7-nxU7ipwQ _YjjuMxkTEeaI7-nxU7ipwQ _YjjuMRkTEeaI7-nxU7ipwQ _X8x1gR4KEeaG6rLFhql7rA">
+          <presentation xmi:id="-ubMHCgNp6TESlbfFSCk5UA" href="uma://-fqGWGpuhSNwxYZVmzF6Q5Q#-ubMHCgNp6TESlbfFSCk5UA"/>
+        </processElements>
         <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_YjjuNhkTEeaI7-nxU7ipwQ" name="identificar_interessado" guid="_YjjuNhkTEeaI7-nxU7ipwQ" presentationName="Identificar Interessado" briefDescription="O sistema identifica o interessado da demanda através da Base de Dados do SUAP." prefix="Identifica o interessado da demanda através da informação do seu Campus de Lotação no SUAP (Docentes e TAEs) ou Campus no qual estuda (Dicentes)." superActivities="_YjjuNRkTEeaI7-nxU7ipwQ" isSynchronizedWithSource="false" performedPrimarilyBy="_X8x1gR4KEeaG6rLFhql7rA">
           <methodElementProperty xmi:id="_X8x1gx4KEeaG6rLFhql7rA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
           <Task href="uma://_15GpMBB-EeaMab92HdiewQ#_c0goYBlHEeac27aqqQzB_Q"/>
@@ -136,9 +147,11 @@
           <Role href="uma://_15GpMBB-EeaMab92HdiewQ#_JH0QwBlGEeac27aqqQzB_Q"/>
         </processElements>
       </childPackages>
-      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_7NIDIBOVEeaMab92HdiewQ" name="Atendimento" guid="_7NIDIBOVEeaMab92HdiewQ" presentationName="Atendimento" superActivities="_g0ubARB_EeaMab92HdiewQ" linkToPredecessor="_W-xlIBOWEeaMab92HdiewQ" breakdownElements="_9bsGQBOyEeaoF8c2YfdgvQ __C_bQROyEeaoF8c2YfdgvQ _xsBE8BblEea9TrfubCHhXg _K2gLgBkXEeaI7-nxU7ipwQ _YtYvEBbjEea9TrfubCHhXg _YjjuNRkTEeaI7-nxU7ipwQ _PcVuMRkXEeaI7-nxU7ipwQ _dMFd4BkmEeaTKPMXZkcAAg _Z3XnQBO0EeaoF8c2YfdgvQ _t-qsshO0EeaoF8c2YfdgvQ _4Jo0AR4JEeaG6rLFhql7rA _9UqucR4JEeaG6rLFhql7rA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_7NIDIBOVEeaMab92HdiewQ" name="Atendimento" guid="_7NIDIBOVEeaMab92HdiewQ" presentationName="Atendimento" briefDescription="Etapa onde ocorre o tratamento e atendimento da demanda solicitada." superActivities="_g0ubARB_EeaMab92HdiewQ" linkToPredecessor="_W-xlIBOWEeaMab92HdiewQ" breakdownElements="_xsBE8BblEea9TrfubCHhXg _9bsGQBOyEeaoF8c2YfdgvQ __C_bQROyEeaoF8c2YfdgvQ _K2gLgBkXEeaI7-nxU7ipwQ _YtYvEBbjEea9TrfubCHhXg _YjjuNRkTEeaI7-nxU7ipwQ _PcVuMRkXEeaI7-nxU7ipwQ _dMFd4BkmEeaTKPMXZkcAAg _Z3XnQBO0EeaoF8c2YfdgvQ _t-qsshO0EeaoF8c2YfdgvQ _4Jo0AR4JEeaG6rLFhql7rA _9UqucR4JEeaG6rLFhql7rA">
+        <presentation xmi:id="-4yggplsLFM5ymd4ix5fgwA" href="uma://-fqGWGpuhSNwxYZVmzF6Q5Q#-4yggplsLFM5ymd4ix5fgwA"/>
+      </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_W-xlIBOWEeaMab92HdiewQ" guid="_W-xlIBOWEeaMab92HdiewQ" pred="_6TLY0ROUEeaMab92HdiewQ"/>
-      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9bsGQBOyEeaoF8c2YfdgvQ" name="atribuir_chamado" guid="_9bsGQBOyEeaoF8c2YfdgvQ" presentationName="Atribuir Chamado" briefDescription="Responsável por Grupo de Atendimento atribiu um chamado a um determinado atendente do grupo." superActivities="_7NIDIBOVEeaMab92HdiewQ" isSynchronizedWithSource="false" performedPrimarilyBy="_4Jo0AR4JEeaG6rLFhql7rA">
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9bsGQBOyEeaoF8c2YfdgvQ" name="atribuir_chamado" guid="_9bsGQBOyEeaoF8c2YfdgvQ" presentationName="Atribuir Chamado" briefDescription="Responsável por Grupo de Atendimento atribui um chamado a um determinado atendente do grupo." superActivities="_7NIDIBOVEeaMab92HdiewQ" isSynchronizedWithSource="false" performedPrimarilyBy="_4Jo0AR4JEeaG6rLFhql7rA">
         <methodElementProperty xmi:id="_4JylAB4JEeaG6rLFhql7rA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
         <Task href="uma://_15GpMBB-EeaMab92HdiewQ#_478s0BlKEeac27aqqQzB_Q"/>
         <selectedSteps href="uma://-4jVdVz_x8-1LS6d6cU85iw#_KTwtMBlLEeac27aqqQzB_Q"/>
@@ -160,11 +173,11 @@
         <methodElementProperty xmi:id="_C54qgB4KEeaG6rLFhql7rA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
         <Task href="uma://_15GpMBB-EeaMab92HdiewQ#_iUuL0BlLEeac27aqqQzB_Q"/>
       </processElements>
-      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_K2gLgBkXEeaI7-nxU7ipwQ" name="analizar_a_solicitacao_do_requisitante" guid="_K2gLgBkXEeaI7-nxU7ipwQ" presentationName="Analizar a Solicitação do Requisitante" briefDescription="Analiza a demanda solicitada através da categoria chamado informado pelo Requisitante." superActivities="_7NIDIBOVEeaMab92HdiewQ" isSynchronizedWithSource="false" performedPrimarilyBy="_9UqucR4JEeaG6rLFhql7rA">
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_K2gLgBkXEeaI7-nxU7ipwQ" name="analisar_a_solicitacao_do_requisitante" guid="_K2gLgBkXEeaI7-nxU7ipwQ" presentationName="Analisar a Solicitação do Requisitante" briefDescription="Analisa a demanda solicitada através da categoria chamado informado pelo Requisitante." superActivities="_7NIDIBOVEeaMab92HdiewQ" isSynchronizedWithSource="false" performedPrimarilyBy="_9UqucR4JEeaG6rLFhql7rA">
         <methodElementProperty xmi:id="_GIPc4B4KEeaG6rLFhql7rA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
         <Task href="uma://_15GpMBB-EeaMab92HdiewQ#_ynpAsBlLEeac27aqqQzB_Q"/>
       </processElements>
-      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_PcVuMRkXEeaI7-nxU7ipwQ" name="analizar_problema_informado" guid="_PcVuMRkXEeaI7-nxU7ipwQ" presentationName="Analizar Problema Informado" briefDescription="Analiza a demanda solicitada através da descrição do problema no chamado informado pelo Requisitante." superActivities="_7NIDIBOVEeaMab92HdiewQ" isSynchronizedWithSource="false" performedPrimarilyBy="_9UqucR4JEeaG6rLFhql7rA">
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_PcVuMRkXEeaI7-nxU7ipwQ" name="analisar_problema_informado" guid="_PcVuMRkXEeaI7-nxU7ipwQ" presentationName="Analisar Problema Informado" briefDescription="Analisa a demanda solicitada através da descrição do problema no chamado informado pelo Requisitante." superActivities="_7NIDIBOVEeaMab92HdiewQ" isSynchronizedWithSource="false" performedPrimarilyBy="_9UqucR4JEeaG6rLFhql7rA">
         <methodElementProperty xmi:id="_dh98YB4KEeaG6rLFhql7rA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
         <Task href="uma://_15GpMBB-EeaMab92HdiewQ#_Ec2SQBlNEeac27aqqQzB_Q"/>
       </processElements>
@@ -184,7 +197,9 @@
       </processElements>
     </childPackages>
     <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_NbXVMROWEeaMab92HdiewQ" name="Homologacao" guid="_NbXVMROWEeaMab92HdiewQ">
-      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_Nb9yIBOWEeaMab92HdiewQ" name="Homologacao" guid="_Nb9yIBOWEeaMab92HdiewQ" presentationName="Homologação" superActivities="_g0ubARB_EeaMab92HdiewQ" linkToPredecessor="_XxgCkBOWEeaMab92HdiewQ" breakdownElements="_Z1f9ABPKEeaoF8c2YfdgvQ _fW0QgBPKEeaoF8c2YfdgvQ _9MgTIBk2EeaUbOzn_w0V4A _1l8jsR4TEeaG6rLFhql7rA _1l8jtB4TEeaG6rLFhql7rA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_Nb9yIBOWEeaMab92HdiewQ" name="Homologacao" guid="_Nb9yIBOWEeaMab92HdiewQ" presentationName="Homologação" briefDescription="Etapa onde ocorre a confirmação que a demanda foi devidamente atendida." superActivities="_g0ubARB_EeaMab92HdiewQ" linkToPredecessor="_XxgCkBOWEeaMab92HdiewQ" breakdownElements="_Z1f9ABPKEeaoF8c2YfdgvQ _fW0QgBPKEeaoF8c2YfdgvQ _9MgTIBk2EeaUbOzn_w0V4A _1l8jsR4TEeaG6rLFhql7rA _1l8jtB4TEeaG6rLFhql7rA">
+        <presentation xmi:id="-N7QEtNCARoybj2Pf2s2q4g" href="uma://-fqGWGpuhSNwxYZVmzF6Q5Q#-N7QEtNCARoybj2Pf2s2q4g"/>
+      </processElements>
       <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_XxgCkBOWEeaMab92HdiewQ" guid="_XxgCkBOWEeaMab92HdiewQ" pred="_7NIDIBOVEeaMab92HdiewQ"/>
       <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Z1f9ABPKEeaoF8c2YfdgvQ" name="reabrir_chamado" guid="_Z1f9ABPKEeaoF8c2YfdgvQ" presentationName="Reabrir Chamado" briefDescription="Reabrir um chamado marcado como Resolvido." superActivities="_Nb9yIBOWEeaMab92HdiewQ" isSynchronizedWithSource="false" performedPrimarilyBy="_1l8jsR4TEeaG6rLFhql7rA _1l8jtB4TEeaG6rLFhql7rA">
         <methodElementProperty xmi:id="_1l8jth4TEeaG6rLFhql7rA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>

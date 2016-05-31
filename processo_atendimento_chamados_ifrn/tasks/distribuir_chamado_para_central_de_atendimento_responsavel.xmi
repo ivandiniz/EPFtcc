@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-hts00LYwfWP2Y0JS6RBU8w" name="distribuir_chamado_para_central_de_atendimento_responsavel,_HaN0kBlIEeac27aqqQzB_Q" guid="-hts00LYwfWP2Y0JS6RBU8w">
+  <purpose>Encaminhar o chamado para a Central de Atendimento adequada para a atender a solicitação.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

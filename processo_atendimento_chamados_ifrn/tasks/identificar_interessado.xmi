@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-BxQXerqRlwzYnvUS_u3Crg" name="identificar_interessado,_c0goYBlHEeac27aqqQzB_Q" guid="-BxQXerqRlwzYnvUS_u3Crg">
+  <purpose>Identificar a lotação no SUAP do interessado, para encaminhar a demanda para o Campus de origem do mesmo.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

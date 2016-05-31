@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="--ISE1E5hQ35RhTO7fXTnog" name="analizar_a_solicitacao_do_requisitante,_ynpAsBlLEeac27aqqQzB_Q" guid="--ISE1E5hQ35RhTO7fXTnog">
+  <purpose>Identificar a categoria e o tipo de serviço solicitado.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

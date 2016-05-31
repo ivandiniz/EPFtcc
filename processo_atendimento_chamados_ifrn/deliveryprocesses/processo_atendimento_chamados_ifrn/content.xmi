@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:DeliveryProcessDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-fqGWGpuhSNwxYZVmzF6Q5Q" name="processo_atendimento_chamados_ifrn,_g0ubARB_EeaMab92HdiewQ" guid="-fqGWGpuhSNwxYZVmzF6Q5Q">
-  <mainDescription>&lt;p>&#xD;
-    O processo foi dividido em 3 Fases.....&#xD;
-&lt;/p></mainDescription>
-  <purpose>&lt;p>&#xD;
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-fqGWGpuhSNwxYZVmzF6Q5Q" name="processo_atendimento_chamados_ifrn,_g0ubARB_EeaMab92HdiewQ" guid="-fqGWGpuhSNwxYZVmzF6Q5Q">
+    <purpose>&lt;p>&#xD;
     Este trabalho&amp;nbsp;foi elaborado com o propósito de documentar o processo de atendimento de chamados&amp;nbsp; de TI&#xD;
     através da Central de Serviços do SUAP no IFRN.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    Contextualizar o propósito&#xD;
 &lt;/p></purpose>
-</org.eclipse.epf.uma:DeliveryProcessDescription>
+  </org.eclipse.epf.uma:DeliveryProcessDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-IR_M3kmhefZYPtYIkilqWA" name="Distribuir Chamado,_BUJcAROnEeaoF8c2YfdgvQ" guid="-IR_M3kmhefZYPtYIkilqWA">
+    <purpose>Encaminhar o chamado para a Central de Atendimento adequada.</purpose>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-XLRXWYguMfwtw053BKlq2g" name="Distribuicao,_6TLY0ROUEeaMab92HdiewQ" guid="-XLRXWYguMfwtw053BKlq2g">
+    <purpose>&lt;p>&#xD;
+    Distribuir o chamado para a Central de Atendimento adequada.&#xD;
+&lt;/p></purpose>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-qTSrVw9DpyENRGJDnSOunQ" name="Atender Chamado,_t-qsshO0EeaoF8c2YfdgvQ" guid="-qTSrVw9DpyENRGJDnSOunQ">
+    <purpose>Realizar o atendimento do chamado.</purpose>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-ubMHCgNp6TESlbfFSCk5UA" name="Distribuir Chamado,_YjjuNRkTEeaI7-nxU7ipwQ" guid="-ubMHCgNp6TESlbfFSCk5UA">
+    <purpose>Encaminhar o chamado para a Central de Atendimento adequada.</purpose>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-4yggplsLFM5ymd4ix5fgwA" name="Atendimento,_7NIDIBOVEeaMab92HdiewQ" guid="-4yggplsLFM5ymd4ix5fgwA">
+    <purpose>Realizar o atendimento da demanda solicitada.</purpose>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-N7QEtNCARoybj2Pf2s2q4g" name="Homologacao,_Nb9yIBOWEeaMab92HdiewQ" guid="-N7QEtNCARoybj2Pf2s2q4g">
+    <purpose>Homologar o atendimento atendimento realizado.</purpose>
+  </org.eclipse.epf.uma:ActivityDescription>
+</xmi:XMI>

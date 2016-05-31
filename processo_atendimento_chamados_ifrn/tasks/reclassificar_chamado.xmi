@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-x8FmlIcKO3tk_gLbQ85hgw" name="reclassificar_chamado,_GbflsBlMEeac27aqqQzB_Q" guid="-x8FmlIcKO3tk_gLbQ85hgw">
+  <purpose>Reclassificar um chamado aberto incorretamente, tomando como base o catálogo de serviços.</purpose>
+</org.eclipse.epf.uma:TaskDescription>
