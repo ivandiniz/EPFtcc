@@ -53,16 +53,16 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_J6ytMBlDEeaUbOzn_w0V4A" name="central_de_servicos" guid="_J6ytMBlDEeaUbOzn_w0V4A" presentationName="Central de Serviços">
           <methodElementProperty xmi:id="_J6ytMRlDEeaUbOzn_w0V4A" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_922kwBlDEeaUbOzn_w0V4A" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_YykH0BlFEeac27aqqQzB_Q" name="atendente" guid="_YykH0BlFEeac27aqqQzB_Q" presentationName="Atendente" briefDescription="Membro da equipe responsável por atender chamados pertencentes ao Grupo de Atendimento no qual pertence.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_YykH0BlFEeac27aqqQzB_Q" name="atendente" guid="_YykH0BlFEeac27aqqQzB_Q" presentationName="Atendente" briefDescription="Servidor, estagiário ou bolsista do IFRN membro de um ou mais grupos de atendimento de uma central de atendimento responsável por atender demandas técnicas de TI nos Campis ou Reitoria do instituto.">
             <methodElementProperty xmi:id="_aMtxoBlFEeac27aqqQzB_Q" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_7MwrIBlFEeac27aqqQzB_Q" name="responsavel_grupo" guid="_7MwrIBlFEeac27aqqQzB_Q" presentationName="Responsável por Grupo de Atendimento" briefDescription="Membro da equipe responsável pelo Grupo de Atendimento no qual pertence.">
             <methodElementProperty xmi:id="_Bu6wkBlGEeac27aqqQzB_Q" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_JH0QwBlGEeac27aqqQzB_Q" name="suap" guid="_JH0QwBlGEeac27aqqQzB_Q" presentationName="SUAP" briefDescription="Sistema Unificado de Administração Pública">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_JH0QwBlGEeac27aqqQzB_Q" name="suap" guid="_JH0QwBlGEeac27aqqQzB_Q" presentationName="SUAP" briefDescription="Sistema Unificado de Administração Pública que é utilizado no IFRN que detém a base de dados de alunos e servidores do instituto, como também, a disponibilização de vários serviços internos ao instituto, dentre eles a Central de Serviços.">
             <methodElementProperty xmi:id="_NFlG0BlGEeac27aqqQzB_Q" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_OH6GgBlGEeac27aqqQzB_Q" name="interessado" guid="_OH6GgBlGEeac27aqqQzB_Q" presentationName="Interessado" briefDescription="Servidor, Prestador de Serviço ou Aluno do IFRN que solicita alguma demanda via Central de Serviços do SUAP">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_OH6GgBlGEeac27aqqQzB_Q" name="interessado" guid="_OH6GgBlGEeac27aqqQzB_Q" presentationName="Interessado" briefDescription="Servidor, Prestador de Serviço ou Aluno do IFRN que reporta um problema ou solicita alguma demanda técnica de TI via Central de Serviços do SUAP">
             <methodElementProperty xmi:id="_P-TncBlGEeac27aqqQzB_Q" name="me_edited" value="true"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_8X7oUBlGEeac27aqqQzB_Q" name="abrir_chamado" guid="_8X7oUBlGEeac27aqqQzB_Q" presentationName="Abrir Chamado" briefDescription="Solicitação de demanda de TI tomando como referência o Catálogo de Serviços existente na Central de Serviços do SUAP." performedBy="_OH6GgBlGEeac27aqqQzB_Q" additionallyPerformedBy="_YykH0BlFEeac27aqqQzB_Q _7MwrIBlFEeac27aqqQzB_Q">
