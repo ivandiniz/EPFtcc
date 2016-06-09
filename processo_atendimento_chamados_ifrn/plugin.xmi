@@ -17,7 +17,7 @@
     <resourceDescriptors xmi:id="_INdG0B4TEeaG6rLFhql7rA" id="-Z6fB29PDBoNeVomoSpWT8w" uri="tasks/reabrir_chamado.xmi"/>
     <resourceDescriptors xmi:id="_e-3CEh4TEeaG6rLFhql7rA" id="--g6Z1MBAzPxZIqZyi0ab5w" uri="tasks/fechar_chamado.xmi"/>
     <resourceDescriptors xmi:id="_zas0Ih4TEeaG6rLFhql7rA" id="-wjOoXUsSkBJFq0NJzuYAgQ" uri="tasks/avaliar_atendimento.xmi"/>
-    <resourceDescriptors xmi:id="_6oHgsCdhEeaHKe3VGz71fw" id="--ISE1E5hQ35RhTO7fXTnog" uri="tasks/analisar_a_solicitacao_do_requisitante.xmi"/>
+    <resourceDescriptors xmi:id="_6oHgsCdhEeaHKe3VGz71fw" id="--ISE1E5hQ35RhTO7fXTnog" uri="tasks/analisar_a_solicitacao_do_interessado.xmi"/>
     <resourceDescriptors xmi:id="_Rvu8gCdiEeaHKe3VGz71fw" id="-UvtxmwcF9BTQYVXKCV4FpA" uri="tasks/analisar_problema_informado.xmi"/>
     <resourceDescriptors xmi:id="_Woh3cCdiEeaHKe3VGz71fw" id="-cRaD64j6RKbHbegF9ubbxA" uri="tasks/assumir_chamado.xmi"/>
     <resourceDescriptors xmi:id="_DlAtwCdjEeaHKe3VGz71fw" id="-hts00LYwfWP2Y0JS6RBU8w" uri="tasks/distribuir_chamado_para_central_de_atendimento_responsavel.xmi"/>
@@ -93,7 +93,7 @@
             <methodElementProperty xmi:id="_jWzT4BlLEeac27aqqQzB_Q" name="me_edited" value="true"/>
             <presentation xmi:id="-OVtrdoDQkYOUVFvQe-IBlg" href="uma://-OVtrdoDQkYOUVFvQe-IBlg#-OVtrdoDQkYOUVFvQe-IBlg"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ynpAsBlLEeac27aqqQzB_Q" name="analisar_a_solicitacao_do_requisitante" guid="_ynpAsBlLEeac27aqqQzB_Q" presentationName="Analisar a Solicitação do Requisitante" briefDescription="Analisa a demanda solicitada através da categoria chamado informado pelo Requisitante." performedBy="_YykH0BlFEeac27aqqQzB_Q">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ynpAsBlLEeac27aqqQzB_Q" name="analisar_a_solicitacao_do_interessado" guid="_ynpAsBlLEeac27aqqQzB_Q" presentationName="Analisar a Solicitação do Interessado" briefDescription="Analisa a demanda solicitada através da categoria chamado informado pelo Requisitante." performedBy="_YykH0BlFEeac27aqqQzB_Q">
             <methodElementProperty xmi:id="_3L2ywBlLEeac27aqqQzB_Q" name="me_edited" value="true"/>
             <presentation xmi:id="--ISE1E5hQ35RhTO7fXTnog" href="uma://--ISE1E5hQ35RhTO7fXTnog#--ISE1E5hQ35RhTO7fXTnog"/>
           </contentElements>
@@ -101,7 +101,7 @@
             <methodElementProperty xmi:id="_a39p4BlMEeac27aqqQzB_Q" name="me_edited" value="true"/>
             <presentation xmi:id="-x8FmlIcKO3tk_gLbQ85hgw" href="uma://-x8FmlIcKO3tk_gLbQ85hgw#-x8FmlIcKO3tk_gLbQ85hgw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Ec2SQBlNEeac27aqqQzB_Q" name="analisar_problema_informado" guid="_Ec2SQBlNEeac27aqqQzB_Q" presentationName="Analisar Problema Informado" briefDescription="Analisa a demanda solicitada através da descrição do problema no chamado informado pelo Requisitante." performedBy="_YykH0BlFEeac27aqqQzB_Q">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Ec2SQBlNEeac27aqqQzB_Q" name="analisar_problema_informado" guid="_Ec2SQBlNEeac27aqqQzB_Q" presentationName="Analisar Problema Informado" briefDescription="Analisa os detalhes da demanda solicitada através da descrição do problema no chamado informado pelo Requisitante." performedBy="_YykH0BlFEeac27aqqQzB_Q">
             <methodElementProperty xmi:id="_N66vMBlNEeac27aqqQzB_Q" name="me_edited" value="true"/>
             <presentation xmi:id="-UvtxmwcF9BTQYVXKCV4FpA" href="uma://-UvtxmwcF9BTQYVXKCV4FpA#-UvtxmwcF9BTQYVXKCV4FpA"/>
           </contentElements>
@@ -117,7 +117,7 @@
             <methodElementProperty xmi:id="_gcQGwB4LEeaG6rLFhql7rA" name="me_edited" value="true"/>
             <presentation xmi:id="-qZxfrlmlbKQbp3GwT-OPRQ" href="uma://-qZxfrlmlbKQbp3GwT-OPRQ#-qZxfrlmlbKQbp3GwT-OPRQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_kKkyoB4LEeaG6rLFhql7rA" name="status_suspenso" guid="_kKkyoB4LEeaG6rLFhql7rA" presentationName="Atualizar Status para Suspenso" briefDescription="Suspender o chamado em virtude de necessitar de fatores externos para atender a soicitação do usuário." performedBy="_YykH0BlFEeac27aqqQzB_Q">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_kKkyoB4LEeaG6rLFhql7rA" name="status_suspenso" guid="_kKkyoB4LEeaG6rLFhql7rA" presentationName="Atualizar Status para Suspenso" briefDescription="Suspender o chamado em virtude de necessitar de fatores externos para atender a solicitação do usuário." performedBy="_YykH0BlFEeac27aqqQzB_Q">
             <methodElementProperty xmi:id="_RCkKgB4MEeaG6rLFhql7rA" name="me_edited" value="true"/>
             <presentation xmi:id="-drM2QbNICpai97Noa0lIaQ" href="uma://-drM2QbNICpai97Noa0lIaQ#-drM2QbNICpai97Noa0lIaQ"/>
           </contentElements>
